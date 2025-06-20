@@ -33,7 +33,10 @@ Line broken with double space
 ## Extended versions of md (some broken on github)
 
 ==highlight==  
-<mark>highlighted via html tag</mark>
+<mark>highlighted via html tag</mark>  
+    <mark>highlighted via html tag</mark>
 
-^superscript^
-Plain text<sup>sup html</sup>
+^superscript^  
+Plain text<sup>sup html</sup>  
+    Plain text<sup>sup html</sup>
+
