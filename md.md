@@ -58,10 +58,9 @@ Line broken with double space
          1. nested list item one
          2. nested list item two
       2. List item two
-← Tables aren't CommonMark, GFM though
 
-## Some extended versions of md  
-thus not all GFM (GitHub Flavored Markdown)
+## Some Extended Cersions of MarkDown  
+Not all of this is GFM (GitHub Flavored Markdown)
 
 ### Flavor Notes  
 - **CommonMark** → Clean, strict, portable  
