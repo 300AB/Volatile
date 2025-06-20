@@ -15,11 +15,11 @@
 
 Plain text **bold text** though __underscore works__ same *here* and _here_  
 Or __*such*__ ***mixing***  
-Line broken with double space
+Line broken with double space  
 
     Plain text **bold text** though __underscore works__ same *here* and _here_  
     Or __*such*__ ***mixing***  
-    Line broken with double space
+    Line broken with double space  
 
 | Column 1      | Column 2      |
 | ------------- | ------------- |
@@ -41,7 +41,6 @@ thus not all GFM (GitHub Flavored Markdown)
 
 ^superscript^  
 Plain text <sup>sup html</sup>  
-Plain text ~drop down~ using capped tilda  
 Plain text <sub>drop down</sub>
 
     Plain text <sup>sup html</sup>
@@ -65,11 +64,16 @@ print("hello")
     ```
 Tab spacing also works, which isn't extended version of md  
 
-[GitHub file path](md.md) ← CommonMark this is label, in else it depends on renderer  
+[GitHub file path](md.md) ← In CommonMark this is a label, else it depends on renderer  
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
 <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
-    [GitHub file path](md.md) ← CommonMark this is label, in else it depends on renderer  
+    [GitHub file path](md.md) ← In CommonMark this is a label, else it depends on renderer  
     [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
     <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
+And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps
+And here is an html tag example <s>here</s>  
+
+    And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps
+    And here is an html tag example <s>here</s>  
