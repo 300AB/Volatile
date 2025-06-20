@@ -78,6 +78,9 @@ Not all of this is GFM (GitHub Flavored Markdown)
     | Cell 1, Row 1              | Cell 2, Row 1, Column 2     |  Cell 3, Row 1, Column 3 |
     | Cell 1, Row 2              | Cell 2, Row 2, Column 2     |  Cell 3, Row 2, Column 3 |
 
+
+There are a few types of line breaks; ---, ___, ***, < br>  
+
 ==highlight== ← Markdown-it & Obsidian support this; not CommonMark or GFM  
 <mark>highlighted via html tag</mark>
 
