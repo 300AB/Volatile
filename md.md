@@ -63,11 +63,11 @@ print("hello")
     ```
 Tab spacing also works, which isn't extended version of md  
 
-[Rel link](/h1)  
+[Rel link](md.md)  
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
 <https://github.com/300AB/Volatile/blob/main/md.md>  
 
-    [Rel link](/h1)  
+    [Rel link](md.md)  
     [Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
     <https://github.com/300AB/Volatile/blob/main/md.md>  
 
