@@ -30,9 +30,10 @@ Line broken with double space
     | Cell 1, Row 2 | Cell 1, Row 2 |
 
 
-## Extended versions of md (some broken on github)
+## Some extended versions of md  
+thus not all GFM (GitHub Flavored Markdown)
 
-==highlight==  
+==highlight==  <-- Not CommonMark nor GFM
 <mark>highlighted via html tag</mark>
 
     <mark>highlighted via html tag</mark>
@@ -50,7 +51,7 @@ Pasted emote 😄
 
     :smile: using another method  
 
-Plain text `mono spaced text or code`  
+Plain text `mono spaced text or code` <-- CommonMark  
 
 ```python
 print("hello")
@@ -65,9 +66,9 @@ Tab spacing also works, which isn't extended version of md
 
 [Rel link](md.md)  
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
-<https://github.com/300AB/Volatile/blob/main/md.md>  
+<https://github.com/300AB/Volatile/blob/main/md.md> <-- CommonMark autolink  
 
     [Rel link](md.md)  <-- part of base md only if autolinks or clickable links enabled 
     [Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
-    <https://github.com/300AB/Volatile/blob/main/md.md>  
+    <https://github.com/300AB/Volatile/blob/main/md.md> <-- CommonMark autolink  
 
