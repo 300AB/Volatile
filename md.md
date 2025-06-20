@@ -22,6 +22,18 @@ Line broken with double space
     Or __*such*__ ***mixing***  
     Line broken with double space  
 
+- dash
+  - nested dash
+* asterisk
+  * nested asterick
++ plus
+  + nested plus
+
+1. List item one
+   1. nested list item one
+   2. nested list item two
+2. List item two
+
 ## Some extended versions of md  
 thus not all GFM (GitHub Flavored Markdown)
 
@@ -54,7 +66,7 @@ Plain text <sub>drop down</sub>
     Plain text <sub>sub html</sub>
 
 Pasted emote 😄  
-:smile: ← GGFM emoji shortcode (may not render outside GitHub)  
+:smile: ← GFM emoji shortcode (may not render outside GitHub)  
 
     :smile: ← GFM emoji shortcode (may not render outside GitHub)  
 
@@ -84,4 +96,10 @@ And here is an html tag example <s>here</s>
 
     And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps  
     And here is an html tag example <s>here</s>  
+
+- [x] checked item ← GFM task list  
+- [ ] unchecked item ← GFM task list
+
+    - [x] checked item ← GFM task list  
+    - [ ] unchecked item ← GFM task list  
 
