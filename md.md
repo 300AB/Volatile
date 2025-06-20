@@ -6,7 +6,6 @@
 #### h4
 ##### h5
 ###### h6
-
     # h1
     ## h2
     ### h3 
@@ -17,7 +16,6 @@
 Plain text **bold text** though __underscore works__ same *here* and _here_  
 Or __*such*__ ***mixing***  
 Line broken with double space
-
     Plain text **bold text** though __underscore works__ same *here* and _here_  
     Or __*such*__ ***mixing***  
     Line broken with double space
@@ -26,7 +24,6 @@ Line broken with double space
 | ------------- | ------------- |
 | Cell 1, Row 1 | Cell 2, Row 1 |
 | Cell 1, Row 2 | Cell 1, Row 2 |
-
     | Column 1      | Column 2      |
     | ------------- | ------------- |
     | Cell 1, Row 1 | Cell 2, Row 1 |
@@ -34,3 +31,5 @@ Line broken with double space
 
 ## Extended versions of md
 
+==highlight==
+    ==highlight==
