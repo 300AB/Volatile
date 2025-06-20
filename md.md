@@ -34,7 +34,7 @@ Line broken with double space
 ## Some extended versions of md  
 thus not all GFM (GitHub Flavored Markdown)
 
-==highlight==  <-- Not CommonMark nor GFM
+==highlight== <-- Not CommonMark nor GFM  
 <mark>highlighted via html tag</mark>
 
     <mark>highlighted via html tag</mark>
