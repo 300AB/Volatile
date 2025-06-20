@@ -69,7 +69,7 @@ print("hello")
     print("hello")
         print("hello")
     ```
-Tab-indented blocks also works, as they're CommonMark  
+Tab-indented blocks also works ← CommonMark  
 
 [GitHub file path](md.md) ← CommonMark syntax; label, path resolution depends on the renderer  
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
