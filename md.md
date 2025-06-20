@@ -5,7 +5,8 @@
 ##### h5
 ###### h6
 
-Plain text  
+Plain text **bold text** though __underscore works__ same *here* and _here_
+Or __*such*__ ***mixing***  
 Line broken with double space
 
 | Column 1      | Column 2      |
