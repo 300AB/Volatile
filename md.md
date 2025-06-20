@@ -50,12 +50,14 @@ Pasted emote 😄
 
     :smile: using :  
 
-Plain text `mono spaced text`  
-
-`print("hello")`
+Plain text `mono spaced text or code`  
 
 ```
 print("hello")
-print("hello")
+    print("hello")
 ```
 
+    ```
+    print("hello")
+        print("hello")
+    ```
