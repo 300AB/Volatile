@@ -65,11 +65,11 @@ print("hello")
     ```
 Tab spacing also works, which isn't extended version of md  
 
-[GitHub file path](md.md) ← CommonMark syntax; label shown, but relative path resolution depends on renderer 
+[GitHub file path](md.md) ← CommonMark syntax; label, path resolution depends on the renderer
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
 <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
-    [GitHub file path](md.md) ← CommonMark syntax; label shown, but relative path resolution depends on renderer  
+    [GitHub file path](md.md) ← CommonMark syntax; label, path resolution depends on the renderer  
     [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
     <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
