@@ -22,6 +22,10 @@ Line broken with double space
     Or __*such*__ ***mixing***  
     Line broken with double space  
 
+![image.png](image.png)  
+
+    ![image.png](image.png)
+
 - dash
   - nested dash
 * asterisk
