@@ -34,15 +34,18 @@ Line broken with double space
    2. nested list item two
 2. List item two
 
-    &#8203;* asterisk  
-    &#8203;      * nested asterick  
-    &#8203;+ plus  
-    &#8203;      + nested plus  
+---
+      - dash
+        - nested dash
+      * asterisk
+        * nested asterick
+      + plus
+        + nested plus
 
-    &#8203;1. List item one  
-    &#8203;      1. nested list item one  
-    &#8203;      2. nested list item two  
-    &#8203;2. List item two  
+      1. List item one
+         1. nested list item one
+         2. nested list item two
+      2. List item two
 
 
 ## Some extended versions of md  
