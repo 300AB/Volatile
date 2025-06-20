@@ -1,5 +1,7 @@
 # Markdown notes & examples
 
+### I use indentations here to show literal formatting, which I show an example of later
+
 # h1
 ## h2
 ### h3 
@@ -47,9 +49,9 @@ Plain text <sub>drop down</sub>
     Plain text <sub>sub html</sub>
 
 Pasted emote 😄  
-:smile: using another method  
+:smile: ← GFM emote shortcode  
 
-    :smile: using another method  
+    :smile: ← GFM emote shortcode  
 
 Plain text `mono spaced text or code` ← CommonMark  
 
@@ -77,3 +79,4 @@ And here is an html tag example <s>here</s>
 
     And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps  
     And here is an html tag example <s>here</s>  
+
