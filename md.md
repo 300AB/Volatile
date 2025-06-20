@@ -39,8 +39,9 @@ Line broken with double space
 
 ^superscript^  
 Plain text<sup>sup html</sup>  
-Plain text ~drop down~  
+Plain text ~drop down~ using capped tilda  
 Plain text <sub>drop down</sub>
+
     Plain text<sup>sup html</sup>
     Plain text <sub>sub html</sub>
 
