@@ -1,13 +1,12 @@
 # Markdown notes & examples
 
-### I use indentations here to show literal formatting, which I show an example of later
-
 # h1
 ## h2
 ### h3 
 #### h4
 ##### h5
 ###### h6
+###### I use indentations as shown here to show literal formatting
     # h1
     ## h2
     ### h3 
@@ -66,11 +65,11 @@ print("hello")
     ```
 Tab spacing also works, which isn't extended version of md  
 
-[GitHub file path](md.md) ← In CommonMark this is a label, else it depends on renderer  
+[GitHub file path](md.md) ← CommonMark syntax; label shown, but relative path resolution depends on renderer 
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
 <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
-    [GitHub file path](md.md) ← In CommonMark this is a label, else it depends on renderer  
+    [GitHub file path](md.md) ← CommonMark syntax; label shown, but relative path resolution depends on renderer  
     [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
     <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
