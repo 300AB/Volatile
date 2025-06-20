@@ -34,17 +34,17 @@ Line broken with double space
    2. nested list item two
 2. List item two
 
-   - dash
-     - nested dash
-   * asterisk
-     * nested asterick
-   + plus
-     + nested plus
+    //- dash
+    //  - nested dash
+    //* asterisk
+    //  * nested asterick
+    //+ plus
+    //  + nested plus
 
-   1. List item one
-      1. nested list item one
-      2. nested list item two
-   2. List item two
+    //1. List item one
+    //   1. nested list item one
+    //   2. nested list item two
+    //2. List item two
 
 ## Some extended versions of md  
 thus not all GFM (GitHub Flavored Markdown)
