@@ -22,13 +22,6 @@ Line broken with double space
     Or __*such*__ ***mixing***  
     Line broken with double space  
 
-There are also Refrence-Style Links such as;  
-
-
-
-![frog-img][]  
-[frog-img]:frog.png
-
 ![alt: frog.png](frog.png)  
 
     ![alt: frog.png](frog.png)  
@@ -40,9 +33,6 @@ There are also Refrence-Style Links such as;
     > quoted text formatting   
     > it can continue   
         >> it can also be nested  
-
-![frog-img][]
-
 
 - dash
   - nested dash
