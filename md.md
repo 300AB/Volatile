@@ -30,7 +30,7 @@ thus not all GFM (GitHub Flavored Markdown)
 | Cell 1, Row 1 | Cell 2, Row 1 Column 2     |
 | Cell 1, Row 2 | Cell 1, Row 2, in Column 2 |
 
-    | Column 1      | Column 2                   |  ← Tables aren't CommonMark they're in GFM though
+    | Column 1      | Column 2                   |  ← Tables aren't CommonMark, GFM though
     | ------------- | -------------------------- |
     | Cell 1, Row 1 | Cell 2, Row 1 Column 2     |
     | Cell 1, Row 2 | Cell 1, Row 2, in Column 2 |
