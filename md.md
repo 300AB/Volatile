@@ -34,7 +34,7 @@ Line broken with double space
 ## Some extended versions of md  
 thus not all GFM (GitHub Flavored Markdown)
 
-==highlight== <-- Not CommonMark nor GFM  
+==highlight== ← Not CommonMark nor GFM  
 <mark>highlighted via html tag</mark>
 
     <mark>highlighted via html tag</mark>
@@ -52,7 +52,7 @@ Pasted emote 😄
 
     :smile: using another method  
 
-Plain text `mono spaced text or code` <-- CommonMark  
+Plain text `mono spaced text or code` ← CommonMark  
 
 ```python
 print("hello")
@@ -65,11 +65,11 @@ print("hello")
     ```
 Tab spacing also works, which isn't extended version of md  
 
-[Rel link](md.md) <-- CommonMark autolink/clickable link  
-[Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
-<https://github.com/300AB/Volatile/blob/main/md.md> <-- CommonMark autolink  
+[GitHub file path](md.md) ← CommonMark this is label, in else it depends on renderer  
+[Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
+<https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
-    [Rel link](md.md)  <-- CommonMark autolink/clickable link  
-    [Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
-    <https://github.com/300AB/Volatile/blob/main/md.md> <-- CommonMark autolink  
+    [GitHub file path](md.md) ← CommonMark this is label, in else it depends on renderer  
+    [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
+    <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
