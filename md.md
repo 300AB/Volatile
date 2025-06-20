@@ -41,7 +41,7 @@ thus not all GFM (GitHub Flavored Markdown)
     | Cell 1, Row 2 | Cell 1, Row 2, in Column 2 |
 
 
-==highlight== ← Not CommonMark nor GFM  
+==highlight== ← Markdown-it & Obsidian support this; not CommonMark or GFM  
 <mark>highlighted via html tag</mark>
 
     <mark>highlighted via html tag</mark>
@@ -54,9 +54,9 @@ Plain text <sub>drop down</sub>
     Plain text <sub>sub html</sub>
 
 Pasted emote 😄  
-:smile: ← GFM emote shortcode  
+:smile: ← GGFM emoji shortcode (may not render outside GitHub)  
 
-    :smile: ← GFM emote shortcode  
+    :smile: ← GFM emoji shortcode (may not render outside GitHub)  
 
 Plain text `mono spaced text or code` ← CommonMark  
 
@@ -69,7 +69,7 @@ print("hello")
     print("hello")
         print("hello")
     ```
-Tab indented blocks also works, which is CommonMark  
+Tab-indented blocks also works, as they're CommonMark  
 
 [GitHub file path](md.md) ← CommonMark syntax; label, path resolution depends on the renderer  
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
