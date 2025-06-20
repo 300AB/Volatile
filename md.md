@@ -9,6 +9,10 @@ Plain text **bold text** though __underscore works__ same *here* and _here_
 Or __*such*__ ***mixing***  
 Line broken with double space
 
+    Plain text **bold text** though __underscore works__ same *here* and _here_  
+    Or __*such*__ ***mixing***  
+    Line broken with double space
+
 | Column 1      | Column 2      |
 | ------------- | ------------- |
 | Cell 1, Row 1 | Cell 2, Row 1 |
