@@ -38,7 +38,10 @@ Line broken with double space
     <mark>highlighted via html tag</mark>
 
 ^superscript^  
-Plain text<sup>sup html</sup>
-
+Plain text<sup>sup html</sup>  
+Plain text ~drop down~  
+Plain text <sub>drop down</sub>
     Plain text<sup>sup html</sup>
+    Plain text <sub>sub html</sub>
+
 
