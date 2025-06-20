@@ -72,8 +72,8 @@ Tab spacing also works, which isn't extended version of md
     [Link text](https://github.com/300AB/Volatile/blob/main/md.md) ← CommonMark  
     <https://github.com/300AB/Volatile/blob/main/md.md> ← CommonMark autolink  
 
-And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps
+And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps  
 And here is an html tag example <s>here</s>  
 
-    And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps
+    And this is crossed ~~out~~ ← GFM, otherwise its just double tilda end caps  
     And here is an html tag example <s>here</s>  
