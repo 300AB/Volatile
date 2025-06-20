@@ -29,7 +29,11 @@ Line broken with double space
     | Cell 1, Row 1 | Cell 2, Row 1 |
     | Cell 1, Row 2 | Cell 1, Row 2 |
 
+
 ## Extended versions of md (some broken on github)
 
-==highlight via double equals==  
+==highlight==  
 <mark>highlighted via html tag</mark>
+
+^superscript^
+Plain text<sup>sup html</sup>
