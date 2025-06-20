@@ -65,7 +65,7 @@ Tab spacing also works, which isn't extended version of md
 
 [Rel link]
 (/h1)
-[Link text]  
+[Link text]
 (https://github.com/300AB/Volatile/blob/main/md.md)  
 <https://github.com/300AB/Volatile/blob/main/md.md>  
 
