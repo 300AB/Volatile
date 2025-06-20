@@ -45,7 +45,10 @@ Plain text <sub>drop down</sub>
     Plain text <sup>sup html</sup>
     Plain text <sub>sub html</sub>
 
-:smile: using :
+:smile: using :  
+
+    :smile: using :  
+
 Pasted emote 😄
 
 
