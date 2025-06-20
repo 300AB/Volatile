@@ -42,7 +42,10 @@ Plain text <sup>sup html</sup>
 Plain text ~drop down~ using capped tilda  
 Plain text <sub>drop down</sub>
 
-    Plain text X<sup>2</sup>
-    Plain text H<sub>2</sub>o
+    Plain text <sup>sup html</sup>
+    Plain text <sub>sub html</sub>
+
+:smile: using :
+Pasted emote 😄
 
 
