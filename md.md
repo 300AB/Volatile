@@ -22,9 +22,17 @@ Line broken with double space
     Or __*such*__ ***mixing***  
     Line broken with double space  
 
-![image-1.png](image-1.png)  
+![frog.png](frog.png)  
 
-    ![image-1.png](image-1.png)  
+    ![frog.png](frog.png)  
+
+> qouted text formatting   
+> it can continue   
+    >> it can also be nested  
+
+    > qouted text formatting   
+    > it can continue   
+        >> it can also be nested  
 
 - dash
   - nested dash
@@ -50,7 +58,7 @@ Line broken with double space
          1. nested list item one
          2. nested list item two
       2. List item two
-
+← Tables aren't CommonMark, GFM though
 
 ## Some extended versions of md  
 thus not all GFM (GitHub Flavored Markdown)
@@ -60,15 +68,16 @@ thus not all GFM (GitHub Flavored Markdown)
 - **GFM** → Adds tables, task lists, emoji, strikethrough  
 - **HTML-in-Markdown** → Rendered if allowed; varies by platform
 
-| Column 1      | Column 2                   |
-| ------------- | -------------------------- |
-| Cell 1, Row 1 | Cell 2, Row 1 Column 2     |
-| Cell 1, Row 2 | Cell 1, Row 2, in Column 2 |
+| Column 1 Left Aligned Text | Column 2 Right Aligned Text | Column 3 Center Aligned |
+| :------------------------- | --------------------------: | :----------------------:|
+| Cell 1, Row 1              | Cell 2, Row 1 Column 2      | Cell 3, Row 1 Column 3  |
+| Cell 1, Row 2              | Cell 2, Row 2, Column 2     | Cell 3, Row 2, Column 3 |
 
-    | Column 1      | Column 2                   |  ← Tables aren't CommonMark, GFM though
-    | ------------- | -------------------------- |
-    | Cell 1, Row 1 | Cell 2, Row 1 Column 2     |
-    | Cell 1, Row 2 | Cell 1, Row 2, in Column 2 |
+    | Column 1 Left Aligned Text | Column 2 Right Aligned Text | Column 3 Center Aligned |
+    | :------------------------- | --------------------------: | :----------------------:|
+    | Cell 1, Row 1              | Cell 2, Row 1 Column 2      | Cell 3, Row 1 Column 3  |
+    | Cell 1, Row 2              | Cell 2, Row 2, Column 2     | Cell 3, Row 2, Column 3 |
+
 
 
 ==highlight== ← Markdown-it & Obsidian support this; not CommonMark or GFM  
