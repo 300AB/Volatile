@@ -45,10 +45,17 @@ Plain text <sub>drop down</sub>
     Plain text <sup>sup html</sup>
     Plain text <sub>sub html</sub>
 
+Pasted emote 😄  
 :smile: using :  
 
     :smile: using :  
 
-Pasted emote 😄
+Plain text `mono spaced text`  
 
+`print("hello")`
+
+```
+print("hello")
+print("hello")
+```
 
