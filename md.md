@@ -22,6 +22,13 @@ Line broken with double space
     Or __*such*__ ***mixing***  
     Line broken with double space  
 
+There are also Refrence-Style Links such as;  
+
+
+
+![frog-img][]  
+[frog-img]:frog.png
+
 ![alt: frog.png](frog.png)  
 
     ![alt: frog.png](frog.png)  
@@ -33,6 +40,9 @@ Line broken with double space
     > quoted text formatting   
     > it can continue   
         >> it can also be nested  
+
+![frog-img][]
+
 
 - dash
   - nested dash
@@ -59,6 +69,15 @@ Line broken with double space
          2. nested list item two
       2. List item two
 
+##### Markdown accepts a few named HTML entities (mostly XHTML legacy), but they’re rarely needed unless you're escaping inside HTML-in-Markdown or avoiding interpretation
+
+    &amp;  =  &  
+    &lt;   =  <  
+    &gt;   =  >  
+    &quot; =  "  
+    &apos; =  '  
+    &nbsp; =   (non-breaking space)
+
 ## Some Extended Cersions of MarkDown  
 Not all of this is GFM (GitHub Flavored Markdown)
 
@@ -78,6 +97,7 @@ Not all of this is GFM (GitHub Flavored Markdown)
     | Cell 1, Row 1              | Cell 2, Row 1, Column 2     |  Cell 3, Row 1, Column 3 |
     | Cell 1, Row 2              | Cell 2, Row 2, Column 2     |  Cell 3, Row 2, Column 3 |
 
+<br>
 #### There are a few types of line breaks; ---, ___, ***, < br>, all valid. . . usually  
 ---
 ***
