@@ -25,6 +25,11 @@ Line broken with double space
 ## Some extended versions of md  
 thus not all GFM (GitHub Flavored Markdown)
 
+### Flavor Notes  
+- **CommonMark** → Clean, strict, portable  
+- **GFM** → Adds tables, task lists, emoji, strikethrough  
+- **HTML-in-Markdown** → Rendered if allowed; varies by platform
+
 | Column 1      | Column 2                   |
 | ------------- | -------------------------- |
 | Cell 1, Row 1 | Cell 2, Row 1 Column 2     |
