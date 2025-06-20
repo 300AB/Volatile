@@ -73,13 +73,10 @@ thus not all GFM (GitHub Flavored Markdown)
 | Cell 1, Row 1              | Cell 2, Row 1 Column 2      | Cell 3, Row 1 Column 3  |
 | Cell 1, Row 2              | Cell 2, Row 2, Column 2     | Cell 3, Row 2, Column 3 |
 
-    | Column 1 Left Aligned Text | Column 2 Right Aligned Text | Column 3 Center Aligned |
-    |:---------------------------|-----------------------------:|:------------------------:|
+    | Column 1 Left Aligned Text | Column 2 Right Aligned Text | Column 3 Center Aligned  |
+    |:---------------------------|-----------------------------:|:-----------------------:|
     | Cell 1, Row 1              |      Cell 2, Row 1 Column 2 |  Cell 3, Row 1 Column 3  |
     | Cell 1, Row 2              |     Cell 2, Row 2, Column 2 |  Cell 3, Row 2, Column 3 |
-
-
-
 
 ==highlight== ← Markdown-it & Obsidian support this; not CommonMark or GFM  
 <mark>highlighted via html tag</mark>
