@@ -7,6 +7,7 @@
 
 Plain text  
 Line broken with double space
+
     Plain text  
     Broken line insert
 
