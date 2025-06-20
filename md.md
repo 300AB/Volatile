@@ -22,9 +22,9 @@ Line broken with double space
     Or __*such*__ ***mixing***  
     Line broken with double space  
 
-![alt: frog.png](frog.png)  
+![alt: frog.png](Luma-frog.png)  
 
-    ![alt: frog.png](frog.png)  
+    ![alt: frog.png](Luma-frog.png)  
 
 > quoted text formatting   
 > it can continue   
