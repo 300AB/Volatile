@@ -53,7 +53,7 @@ Pasted emote 😄
 Plain text `mono spaced text or code`  
 
 ```
-py
+python
 print("hello")
     print("hello")
 ```
