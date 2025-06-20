@@ -5,7 +5,7 @@
 ##### h5
 ###### h6
 
-Plain text **bold text** though __underscore works__ same *here* and _here_
+Plain text **bold text** though __underscore works__ same *here* and _here_  
 Or __*such*__ ***mixing***  
 Line broken with double space
 
