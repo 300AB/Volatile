@@ -46,9 +46,9 @@ Plain text <sub>drop down</sub>
     Plain text <sub>sub html</sub>
 
 Pasted emote 😄  
-:smile: using :  
+:smile: using another method  
 
-    :smile: using :  
+    :smile: using another method  
 
 Plain text `mono spaced text or code`  
 
@@ -67,7 +67,7 @@ Tab spacing also works, which isn't extended version of md
 [Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
 <https://github.com/300AB/Volatile/blob/main/md.md>  
 
-    [Rel link](md.md)  <-- this kind might be plain md 
+    [Rel link](md.md)  <-- part of base md only if autolinks or clickable links enabled 
     [Link text](https://github.com/300AB/Volatile/blob/main/md.md)  
     <https://github.com/300AB/Volatile/blob/main/md.md>  
 
