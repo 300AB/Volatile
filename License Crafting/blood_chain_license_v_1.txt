@@ -1,0 +1,131 @@
+🩸 Blood Chain GENERAL Public License 🩸  
+Version 1, 27 June 2025  
+
+Copyright (c) 2025 . 300AB // Jamie  
+
+This software is licensed under the Blood Chain General Public License (BCGPL) v1.  
+You may use, modify, and redistribute it under the terms of the BCGPL.  
+See LICENSE or visit https://300ab.github.io/downloads/BloodChain.v1.txt for details.  
+
+────────────────────────────────────────────────────────────  
+Preamble  
+────────────────────────────────────────────────────────────  
+
+The Blood Chain General Public License (BCGPL)  
+exists to ensure software remains free to use, but not free to exploit.  
+It preserves the creator’s right to attribution, ethical distribution,  
+and control over the cost and spirit of their work.  
+
+This license is not affiliated with the GNU GPL and is not derived from it.  
+It is an independent framework created to:  
+Enforce ethical freedom through transparency, reciprocity, and integrity.  
+
+If your work includes or derives from BCGPL software and accepts money—  
+be it sales, subscriptions, or donations—your gain is shared.  
+Blood split. Half to you, half to the origin.  
+Visible, fair, inevitable.  
+
+For clarity and mutual protection, Section 12 defines key terms used throughout this license.  
+
+────────────────────────────────────────────────────────────  
+TERMS AND CONDITIONS  
+────────────────────────────────────────────────────────────  
+
+1. Purpose and Scope  
+   This license applies to the software it accompanies.  
+   It grants freedoms and sets boundaries  
+   so the work may remain free, ethical, and traceable.  
+
+2. Permission to Use  
+   Anyone may use this software without restriction, for personal, academic, artistic,  
+   or commercial purposes, provided they do not violate the terms that follow.  
+
+3. Modifying and Sharing  
+   You may modify the software and distribute your version. If you do:  
+
+* You must include this license text unmodified.  
+* You must clearly document all changes.  
+* You must follow Section 6 if you alter, remove or add any form of cost or pricing.  
+* You may not relicense it under incompatible terms.  
+
+4. Redistribution Conditions  
+   Redistributed versions (whether modified or not) must remain under the BCGPL.  
+   You may host, mirror, or share the software as long as these terms are preserved.  
+
+5. Attribution and Credit  
+   You must retain all original credits, author tags, and project identifiers in a visible location  
+   (such as a README or About screen).  
+   You may add your own credits, but not in a way that obscures the original.  
+
+6. Cost Structure and Reciprocity  
+   If the original software had a cost or donation model:  
+
+* You must preserve that same structure in your fork, OR:  
+* You must contribute an equivalent share of any revenue, donations, or monetary value gained  
+  (direct or indirect) to the original author, OR:  
+* You must clearly credit them and provide a visible link to their donation page.  
+
+If your fork or derivative accepts donations or voluntary contributions:  
+
+* You must visibly include the original author's donation link alongside your own.  
+* You must split the total income derived from the software (voluntary or otherwise) 50/50,  
+  unless a written agreement permits another ratio.  
+
+If the fork or derivative is part of a larger project (e.g., a game or software suite),  
+
+* The share owed shall be reasonably calculated based on the role and scope of the original code.  
+* Attempts to obfuscate or fragment usage to reduce owed value are forbidden.  
+
+Monetizing forks is permitted **only** when these terms are honored.  
+
+7. Commercial Use  
+   Commercial use is allowed, but must respect the attribution and cost rules.  
+   You may not misrepresent the original author, nor imply endorsement.  
+
+8. Evolution of This License  
+   New versions of the BCGPL may be released to address new legal or technical issues.  
+   Each version will have a distinct number and timestamp.  
+   You may choose to follow any released version, unless a project explicitly locks to a specific one.  
+   New versions will not add retroactive obligations to earlier adopters.  
+
+9. No Warranty  
+   This software is provided "as is," without any guarantees.  
+   To the fullest extent allowed by law, the author disclaims all implied warranties,  
+   including fitness for a particular purpose and merchantability.  
+
+10. Limitation of Liability  
+    In no event shall the author be liable for any damage resulting from the use,  
+    mishandling, or failure of this software. Use it at your own risk.  
+
+11. Interpretation  
+    If any part of this license is deemed unenforceable by local law,  
+    it shall be interpreted in the way that most closely honors its original intent.  
+
+12. Definitions and Clarification  
+    For avoidance of doubt and to ensure clarity:  
+
+* "Blood" refers to any form of monetary value or gain derived from the software.  
+* "Fork" means any modified, derivative, or extended version of the original software.  
+* "Original author" refers to the copyright holder of the initial BCGPL-licensed work.  
+* "Visible" means plainly shown on relevant public-facing pages, UI, or documentation.  
+* "Fair split" means a 50/50 division unless explicitly renegotiated and agreed to.  
+* "Cost structure" includes pricing, donation models, access gating, or paid features.  
+* "300AB // Jamie" shall be considered a valid legal attribution identifier under this license.  
+
+────────────────────────────────────────────────────────────  
+How to Apply This License to Your Work  
+────────────────────────────────────────────────────────────  
+
+To use this license with your project:  
+
+* Include a file named LICENSE (or LICENSE.txt) with the full text of this license.  
+* Add a short header notice to your README or main script:  
+
+  This software is licensed under the Blood Chain General Public License v1.  
+  You may use, modify, and redistribute it under the terms of the BCGPL.  
+  See LICENSE or visit https://300ab.github.io/downloads/BloodChain.v1.txt for details.  
+
+────────────────────────────────────────────────────────────  
+BCGPLv1 Created by 300AB // Jamie • 2025  
+────────────────────────────────────────────────────────────
+
