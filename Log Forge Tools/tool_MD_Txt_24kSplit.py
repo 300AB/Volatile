@@ -3,15 +3,22 @@ import os
 # Base path relative to the script itself
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Input file inside output_md folder, relative from script_dir
-input_file = os.path.join(script_dir, 'output_md', 'chat_export_full.md')
+# Ask user which input to split
+choice = ''
+while choice not in ['md', 'txt']:
+    choice = input("Which input to split? Type 'md' for markdown or 'txt' for plaintext: ").strip().lower()
+
+if choice == 'md':
+    input_file = os.path.join(script_dir, 'output_md', 'chat_export_full.md')
+elif choice == 'txt':
+    input_file = os.path.join(script_dir, 'output_txt', 'chat_export_full.txt')
 
 # Base name for output files (without folder)
 base_name = 'chat_export_full_part'
 
-# Output directory for split parts
-output_dir_md = os.path.join(script_dir, 'output_md', 'splits_md')
-os.makedirs(output_dir_md, exist_ok=True)
+# Output directory for split parts (keep consistent with input type)
+output_dir = os.path.join(script_dir, f'output_{choice}', 'splits_' + choice)
+os.makedirs(output_dir, exist_ok=True)
 
 char_limit = 24000
 
@@ -19,7 +26,8 @@ def split_md_file(filepath, base_output_dir, base_output_name, limit=24000, stri
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    blocks = content.split('\n---\n\n')  # consistent with your markdown
+    # Use your separator for both md and txt
+    blocks = content.split('\n---\n\n')
 
     current_part = 1
     current_text = ''
@@ -61,6 +69,7 @@ def split_md_file(filepath, base_output_dir, base_output_name, limit=24000, stri
 
     return output_paths
 
+
 def print_stats(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -68,16 +77,11 @@ def print_stats(filename):
     lines = content.count('\n') + 1
     print(f"{os.path.basename(filename)} -> chars:{chars} lines:{lines}")
 
+
 if __name__ == '__main__':
     print(f"Splitting {input_file} (limit: {char_limit} chars)...")
 
-    parts = split_md_file(input_file, output_dir_md, base_name, limit=char_limit, strip_md=False)
-    print("\nMarkdown parts:")
+    parts = split_md_file(input_file, output_dir, base_name, limit=char_limit, strip_md=False)
+    print("\nParts:")
     for part in parts:
         print_stats(part)
-
-    # If you want plaintext parts as well (strip markdown)
-    # txt_parts = split_md_file(input_file, output_dir_md, base_name, limit=char_limit, strip_md=True)
-    # print("\nPlaintext parts:")
-    # for part in txt_parts:
-    #     print_stats(part)
