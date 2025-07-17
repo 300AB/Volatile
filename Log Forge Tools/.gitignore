@@ -1,4 +1,4 @@
-# Ignore text, markdown, and HTML files everywhere
+# Ignore text, markdown, and HTML files
 *.txt
 *.md
 *.html
