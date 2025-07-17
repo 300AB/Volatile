@@ -5,18 +5,20 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Ask user which input to split
 choice = ''
-while choice not in ['md', 'txt']:
-    choice = input("Which input to split? Type 'md' for markdown or 'txt' for plaintext: ").strip().lower()
+while choice not in ['md', 'txt', 'html']:
+    choice = input("Which input to split? Type 'md' for markdown, 'txt' for plaintext, or 'html' for raw HTML: ").strip().lower()
 
 if choice == 'md':
     input_file = os.path.join(script_dir, 'output_md', 'chat_export_full.md')
 elif choice == 'txt':
     input_file = os.path.join(script_dir, 'output_txt', 'chat_export_full.txt')
+else:  # html
+    input_file = os.path.join(script_dir, 'chat_export.html')
 
 # Base name for output files (without folder)
 base_name = 'chat_export_full_part'
 
-# Output directory for split parts (keep consistent with input type)
+# Output directory for split parts
 output_dir = os.path.join(script_dir, f'output_{choice}', 'splits_' + choice)
 os.makedirs(output_dir, exist_ok=True)
 
@@ -69,6 +71,20 @@ def split_md_file(filepath, base_output_dir, base_output_name, limit=24000, stri
 
     return output_paths
 
+def split_raw_html(filepath, base_output_dir, base_output_name, limit=24000):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    current_part = 1
+    output_paths = []
+    for start in range(0, len(content), limit):
+        part_file = os.path.join(base_output_dir, f"{base_output_name}{current_part}.html")
+        with open(part_file, 'w', encoding='utf-8') as out:
+            out.write(content[start:start+limit])
+        output_paths.append(part_file)
+        current_part += 1
+
+    return output_paths
 
 def print_stats(filename):
     with open(filename, 'r', encoding='utf-8') as f:
@@ -77,11 +93,14 @@ def print_stats(filename):
     lines = content.count('\n') + 1
     print(f"{os.path.basename(filename)} -> chars:{chars} lines:{lines}")
 
-
 if __name__ == '__main__':
     print(f"Splitting {input_file} (limit: {char_limit} chars)...")
 
-    parts = split_md_file(input_file, output_dir, base_name, limit=char_limit, strip_md=False)
+    if choice in ['md', 'txt']:
+        parts = split_md_file(input_file, output_dir, base_name, limit=char_limit, strip_md=(choice=='txt'))
+    else:
+        parts = split_raw_html(input_file, output_dir, base_name, limit=char_limit)
+
     print("\nParts:")
     for part in parts:
         print_stats(part)
