@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Palette Manager</title>
+<style>
+body { font-family:"Comic Neue",sans-serif; background:#1e1e1e; color:#f0f0f0; padding:1rem; margin:0; }
+h1 { margin-bottom:1rem; }
+.controls { margin-bottom:1rem; display:flex; flex-wrap:wrap; gap:0.5rem; align-items:center; }
+input[type="text"], input[type="range"] { padding:0.4rem 0.6rem; border-radius:6px; border:none; }
+button { padding:0.4rem 0.6rem; border-radius:6px; border:none; cursor:pointer; font-family:inherit; }
+.btn-clear{ background:#d33; color:#fff; }
+.btn-export, .btn-import{ background:#555; color:#fff; }
+.group { margin-bottom:2rem; }
+.group h2 { margin-bottom:0.5rem; }
+#groups { overflow-x:auto; }
+.group-content { display:flex; flex-direction:column; gap:0.5rem; overflow-x:auto; }
+.row { display:flex; gap:0.5rem; margin-bottom:0.5rem; }
+.color-box { border-radius:10px; overflow:hidden; border:1px solid #444; display:flex; flex-direction:column; flex-shrink:0; }
+.swatch { width:100%; background: repeating-conic-gradient(#ccc 0% 25%, transparent 0% 50%) 50% / 20px 20px; position:relative; }
+.color-overlay { position:absolute; top:0; left:0; right:0; bottom:0; }
+.details { display:flex; flex-direction:column; gap:0.2rem; background:#111; padding:0.3rem; font-size:0.8rem; color:#fff; white-space:nowrap; overflow:hidden; }
+.btn-row { display:flex; justify-content:space-between; margin-top:0.3rem; }
+.btn-remove { background:#d33; color:#fff; }
+.btn-copy { background:#3d3; color:#000; }
+#importFile{ display:none; }
+</style>
+</head>
+<body>
+
+<h1>Color Palette Manager</h1>
+<div class="controls">
+  <input id="colorInput" type="text" placeholder="Enter color (#hex / rgb() / rgba())">
+  <button onclick="addColor()">Add</button>
+  <button class="btn-clear" onclick="clearCache()">Clear Cache</button>
+  <button class="btn-export" onclick="exportCache()">Export</button>
+  <input type="file" id="importFile" accept=".json" onchange="importCache(event)">
+  <button class="btn-import" onclick="document.getElementById('importFile').click()">Import</button>
+  <label for="swatchHeight">Swatch Height:</label>
+  <input id="swatchHeight" type="range" min="20" max="120" value="60" oninput="render()">
+</div>
+
+<div id="groups"></div>
+
+<script>
+// ------------------ Cache ------------------
+let cache = JSON.parse(localStorage.getItem("colorCache") || "[]");
+
+// ------------------ Color Parsing ------------------
+function parseColor(str){
+  str = str.trim();
+  let r,g,b,a=1;
+  let rgbaMatch = str.match(/^rgba?\s*\(\s*(\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\s*\)$/i);
+  if(rgbaMatch){
+    r=parseInt(rgbaMatch[1]);
+    g=parseInt(rgbaMatch[2]);
+    b=parseInt(rgbaMatch[3]);
+    if(rgbaMatch[4]!==undefined) a=parseFloat(rgbaMatch[4]);
+    let hex = "#" + [r,g,b].map(x=>x.toString(16).padStart(2,'0')).join('');
+    return {input:str, hex,r,g,b,a,rgb:`rgb(${r},${g},${b})`, rgba:`rgba(${r},${g},${b},${a})`};
+  }
+  return null;
+}
+
+// ------------------ Grouping ------------------
+function groupColor(c){
+  const r=c.r, g=c.g, b=c.b;
+  const max=Math.max(r,g,b);
+  const min=Math.min(r,g,b);
+  if(max - min < 50) return "Neutral";
+  if(r >= g && r >= b) return "Red";
+  if(b >= r && b >= g) return "Blue";
+  if(g >= r && g >= b) return "Green";
+  return "Neutral";
+}
+
+// ------------------ Overflow detection ------------------
+function isOverflow(c){
+  const max = Math.max(c.r,c.g,c.b);
+  const min = Math.min(c.r,c.g,c.b);
+  return (max - min) > 30 && !((c.r===max && c.r-c.g>20 && c.r-c.b>20) || (c.b===max && c.b-c.r>20 && c.b-c.g>20));
+}
+
+// ------------------ Brightness ------------------
+function brightness(c){ return c.r*0.299 + c.g*0.587 + c.b*0.114; }
+
+// ------------------ Cache Ops ------------------
+function saveCache(){ localStorage.setItem("colorCache", JSON.stringify(cache)); }
+function addColor(){
+  const v = document.getElementById('colorInput').value;
+  const color = parseColor(v);
+  if(!color){ alert("Invalid color"); return; }
+  if(!cache.some(c=>c.hex===color.hex)){ cache.push(color); saveCache(); render(); }
+  document.getElementById('colorInput').value="";
+}
+function clearCache(){ cache=[]; saveCache(); render(); }
+function removeColor(hex){ cache=cache.filter(c=>c.hex!==hex); saveCache(); render(); }
+function copyColor(str){ navigator.clipboard.writeText(str).then(()=>{}, ()=>{alert("Copy failed");}); }
+
+// ------------------ Import / Export ------------------
+function exportCache(){
+  const order = [];
+  const groupNames = ["Red","Blue","Green","Neutral"];
+  const groupsObj = {Red:[],Blue:[],Green:[],Neutral:[]};
+  cache.forEach(c=>{ groupsObj[groupColor(c)].push(c); });
+
+  groupNames.forEach(g=>{
+    const colors = groupsObj[g];
+    if(!colors.length) return;
+    colors.sort((a,b)=>brightness(b)-brightness(a));
+
+    const rows=[];
+    if(g==="Red"||g==="Blue"){ for(let i=0;i<4;i++) rows.push([]); }
+    else{ for(let i=0;i<2;i++) rows.push([]); }
+
+    colors.forEach(c=>{
+      if(g==="Red"||g==="Blue"){
+        if(c.a===1 && !isOverflow(c)) rows[0].push(c);
+        else if(c.a<1 && !isOverflow(c)) rows[1].push(c);
+        else if(c.a===1 && isOverflow(c)) rows[2].push(c);
+        else rows[3].push(c);
+      }else{
+        if(c.a===1) rows[0].push(c);
+        else rows[1].push(c);
+      }
+    });
+
+    rows.forEach(r=>r.forEach(c=>order.push(c.hex)));
+  });
+
+  const blob = new Blob([JSON.stringify(order,null,2)],{type:"application/json"});
+  const a=document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download="palette.json";
+  a.click();
+}
+
+function importCache(e){
+  const file = e.target.files[0]; if(!file) return;
+  const reader = new FileReader();
+  reader.onload = ev=>{
+    try{
+      const arr = JSON.parse(ev.target.result);
+      if(!Array.isArray(arr)) throw "Invalid format";
+      arr.forEach(str=>{
+        const c=parseColor(str);
+        if(c && !cache.some(x=>x.hex===c.hex)) cache.push(c);
+      });
+      saveCache(); render();
+    }catch(err){ alert("Failed import: "+(err.message||err)); }
+  };
+  reader.readAsText(file);
+  e.target.value="";
+}
+
+// ------------------ Rendering ------------------
+function render(){
+  const swatchHeight = document.getElementById("swatchHeight").value;
+  const groupNames = ["Red","Blue","Green","Neutral"];
+  const groupsObj = {Red:[],Blue:[],Green:[],Neutral:[]};
+  cache.forEach(c=>{ groupsObj[groupColor(c)].push(c); });
+
+  const container = document.getElementById("groups");
+  container.innerHTML="";
+
+  groupNames.forEach(g=>{
+    const colors = groupsObj[g];
+    if(!colors.length) return;
+    colors.sort((a,b)=>brightness(b)-brightness(a));
+
+    const grpDiv=document.createElement("div"); grpDiv.className="group";
+    grpDiv.innerHTML=`<h2>${g}</h2>`;
+    const contentDiv=document.createElement("div"); contentDiv.className="group-content";
+
+    const rows=[];
+    if(g==="Red"||g==="Blue"){ for(let i=0;i<4;i++){ const r=document.createElement("div"); r.className="row"; rows.push(r); } }
+    else{ for(let i=0;i<2;i++){ const r=document.createElement("div"); r.className="row"; rows.push(r); } }
+
+    colors.forEach(c=>{
+      const box=document.createElement("div"); box.className="color-box";
+      box.style.width = "120px";
+      box.innerHTML=`
+        <div class="swatch" style="height:${swatchHeight}px;"><div class="color-overlay"></div></div>
+        <div class="details">
+          <div>${c.hex}</div>
+          <div>${c.rgb}</div>
+          <div>${c.rgba}</div>
+          <div class="btn-row">
+            <button class="btn-remove" onclick="removeColor('${c.hex}')">X</button>
+            <button class="btn-copy" onclick="copyColor('${c.rgba}')">Copy</button>
+          </div>
+        </div>
+      `;
+      box.querySelector(".color-overlay").style.backgroundColor = c.rgba;
+
+      if(g==="Red"||g==="Blue"){
+        if(c.a===1 && !isOverflow(c)) rows[0].appendChild(box);
+        else if(c.a<1 && !isOverflow(c)) rows[1].appendChild(box);
+        else if(c.a===1 && isOverflow(c)) rows[2].appendChild(box);
+        else rows[3].appendChild(box);
+      }else{
+        if(c.a===1) rows[0].appendChild(box);
+        else rows[1].appendChild(box);
+      }
+    });
+
+    rows.forEach(r=>contentDiv.appendChild(r));
+    grpDiv.appendChild(contentDiv);
+    container.appendChild(grpDiv);
+  });
+}
+
+// ------------------ Initial render ------------------
+render();
+</script>
+
+</body>
+</html>
