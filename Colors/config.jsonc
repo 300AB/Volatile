@@ -1,0 +1,42 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "modules": [
+    // System Info
+    { "type": "os", "key": " OS", "keyColor": "#6e738d", "valueColor": "gray" },
+    { "type": "kernel", "key": "├─┬ Version", "keyColor": "#9399b2", "valueColor": "gray" },
+    { "type": "command", "key": "├─┼ OS Install Age", "keyColor": "#a6da95", "valueColor": "gray",
+      "text": "echo $(((`date +%s` - `stat -c %W /`)/86400)) days"},
+    { "type": "uptime", "key": "└─┼ Uptime", "keyColor": "#494d64", "valueColor": "gray" },
+    { "type": "datetime", "key": "  └DateTime", "keyColor": "#494d64", "valueColor": "gray" },
+    "break",
+
+    // Desktop Environment
+    { "type": "de", "key": " DE", "keyColor": "#f5bde6", "valueColor": "gray" },
+    { "type": "wm", "key": "├──", "keyColor": "#ee99a0", "valueColor": "gray" },
+    { "type": "terminal", "key": "└─┬", "keyColor": "#C74395", "valueColor": "gray" },
+    { "type": "shell", "key": "  └", "keyColor": "#C74395", "valueColor": "gray" },
+    "break",
+
+    // Host & Hardware
+    { "type": "command", "key": " Host", "keyColor": "#83dbfc", "valueColor": "gray", "text": "hostname" },
+    { "type": "command", "key": "├── User", "keyColor": "#494d64", "valueColor": "gray", "text": "whoami" },
+    { "type": "command", "key": "├── Root", "keyColor": "#B21F4E", "valueColor": "gray", "text": "df -BG / | tail -1 | awk '{printf \"%d%%, %dG\", int($3*100/$2), $2}'" },
+    { "type": "command", "key": "├── Basement", "keyColor": "#B21F4E", "valueColor": "gray", "text": "df -BG /run/media/ab/basement | tail -1 | awk '{printf \"%d%%, %dG\", int($3*100/$2), $2}'" },
+    { "type": "command", "key": "├── CPU", "keyColor": "#B21F4E", "valueColor": "gray", "text": "name=$(awk -F: '/model name/ {print $2; exit}' /proc/cpuinfo | sed 's/^ *//;s/ *$//'); usage=$(top -bn1 | grep '%Cpu(s)' | awk '{print int($2+$4)}'); temp=$(sensors 2>/dev/null | awk '/Package id 0:/ {print $4}' | tr -d +); echo \"${name}, ${usage}% load, ${temp}\"" },
+    { "type": "command", "key": "└─┬󰾲 GPU", "keyColor": "#b7bdf8", "valueColor": "gray", "text": "nvidia-smi --query-gpu=name,utilization.gpu,memory.used,memory.total,temperature.gpu --format=csv,noheader,nounits 2>/dev/null | awk -F, '{vram=int($3*100/$4); printf \"%s, %d%% VRAM (%dG), %d%% load, %d°C\", $1,vram,int($4),int($2),int($5)}'" },
+    { "type": "command", "key": "  └ RAM", "keyColor": "#8bd5ca", "valueColor": "gray", "text": "free -g | awk '/^Mem/ {printf \"%d%%, %dG\", int($3*100/$2), $2}'" },
+    "break",
+
+    // Peripherals
+    { "type": "command", "key": "┌USB/HID", "keyColor": "white", "valueColor": "gray", "text": "[ -n \"$(ls /sys/class/input/event* 2>/dev/null)\" ] && echo 'Connected' || echo 'No devices'" },
+    { "type": "gamepad", "key": "├──", "keyColor": "white", "valueColor": "gray" },
+    { "type": "keyboard", "key": "├──", "keyColor": "white", "valueColor": "gray" },
+    { "type": "command", "key": "└──", "keyColor": "white", "valueColor": "gray", "text": "[ -n \"$(ls /sys/class/input/event* 2>/dev/null)\" ] && echo 'Hivemind Cult' || echo 'No devices'" },
+    "break",
+
+    // Media
+    { "type": "command", "key": "♪", "keyColor": "#8bd5ca", "valueColor": "gray", "text": "playerctl status 2>/dev/null | grep -q . && echo 'Vibin' || echo 'Vibes'" },
+    { "type": "media", "key": "└─┬", "keyColor": "#8bd5ca", "valueColor": "gray" },
+    { "type": "player", "key": "  └", "keyColor": "#8bd5ca", "valueColor": "gray" }
+  ]
+}
