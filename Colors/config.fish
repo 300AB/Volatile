@@ -1,37 +1,53 @@
 # Source the default CachyOS fish config
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
+function fish_greeting
+    fastfetch \
+      --logo-type file \
+      -l ~/.config/fastfetch/output.txt \
+      -c ~/.config/fastfetch/config.jsonc
+end
+
+#/home/ab/.config/fastfetch/logo.jsonc;
+
 # Custom prompt
 function fish_prompt
     # Top line: show last command duration if available, else show time
-    set_color "#43C776"  # green for time box
+
     if set -q __fish_command_duration
-        echo -n "┐{"$__fish_command_duration"s}"
+        set_color "#a6da95"  # soft green
+        echo -n "┬"
+        set_color "#494d64"  # dark gray-purple
+        echo -n " "
+        set_color "#494d64"  # dark gray-purple
+        echo -n "$__fish_command_duration""s"
     else
-        # use %l for 12-hour without leading zero, trim spaces
-        echo -n "┐{"(string trim (date +"%l:%M%p"))"}"
+        set_color "#a6da95"  # soft green
+        echo -n "┬"
+        set_color "#494d64"  # dark gray-purple
+        echo -n " "
+        set_color "#494d64"  # dark gray-purple
+        echo -n (string trim (date +"%l:%M%p"))
     end
 
-    # Newline
     echo ""
 
-    # Bottom line: prompt arrow + username@hostname
-    set_color "#43C776"  # green arrow
+    # Bottom line: arrow + username + pwd
+    set_color "#a6da95"  # soft green
     echo -n "╰─"
 
-    set_color "#C74395"  # magenta/pink for username
+    set_color "#C74395"  # magenta-rose
     echo -n (whoami)
 
-    set_color "#B21F4E"  # deep red separator
+    set_color "#ee99a0"  # desaturated rose/red
     echo -n "@"
 
-    set_color "#AD27F5"  # bright violet hostname
-    echo -n (hostname)
+    set_color "#AD27F5"  # bright violet
+    echo -n (pwd)
 
-    set_color "#43C776"  # green arrow end
+    set_color "#a6da95"  # soft green
     echo -n "⩺ "
 
-    # Reset color
     set_color normal
 end
 
