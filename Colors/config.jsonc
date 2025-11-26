@@ -1,96 +1,171 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  // -------------------------------------
+  //  COLOR PALETTE (reference only)
+  // -------------------------------------
+  //  OS:         #f5bde6 --> #f092ff
+  //  DE:         #ee99a0 --> #e77593
+  //  Hardware:   #b7bdf8 --> #b3fdb6
+  //  Media:      #a6da95 --> #0c94a6
+  //  Values:     gray
+  //
+  //  Bar Colors (ANSI codes):
+  //    barLow  = 32   (green)
+  //    barMid  = 93   (bright magenta)
+  //    barHigh = 33   (yellow)
+  //    barHot  = 31   (red)
+  // -------------------------------------
+
   "modules": [
-  "break",
-    // System Info
-    { "type": "os", "key": " OS", "keyColor": "#f5bde6", "valueColor": "gray" },
-    { "type": "kernel", "key": "├─┬ Version", "keyColor": "#f5bde6", "valueColor": "gray" },
-    { "type": "command", "key": "├─┼ OS Install Age", "keyColor": "#f5bde6", "valueColor": "gray",
-      "text": "echo $(((`date +%s` - `stat -c %W /`)/86400)) days"},
-    { "type": "uptime", "key": "└─┼ Uptime", "keyColor": "#f5bde6", "valueColor": "gray" },
-    { "type": "datetime", "key": "  └DateTime", "keyColor": "#f5bde6", "valueColor": "gray" },
     "break",
 
-    // Desktop Environment
-    { "type": "de", "key": " DE", "keyColor": "#ee99a0", "valueColor": "gray" },
-    { "type": "wm", "key": "├── ", "keyColor": "#ee99a0", "valueColor": "gray" },
-    { "type": "terminal", "key": "└─┬ ", "keyColor": "#ee99a0", "valueColor": "gray" },
-    { "type": "shell", "key": "  └ ", "keyColor": "#ee99a0", "valueColor": "gray" },
-    "break",
+    // ===== OS + System =====
+    { "type": "os", "key": " OS", "keyColor": "#f092ff", "valueColor": "gray" },
+    { "type": "kernel", "key": "└─┬ Version", "keyColor": "#f092ff", "valueColor": "gray" },
 
-    // Host & Hardware
-    { "type": "command", "key": " Host", "keyColor": "#b7bdf8", "valueColor": "gray", "text": "hostname" },
-    { "type": "command", "key": "├── User", "keyColor": "#b7bdf8", "valueColor": "gray", "text": "whoami" },
-
-    //Hardware
-
-        { "type": "command", "key": "├── CPU", "keyColor": "#b7bdf8", "valueColor": "gray","text": "awk -F: '/model name/ {gsub(/^ +| +$/,\"\",$2); print $2; exit}' /proc/cpuinfo" },
-        { "type": "command", "key": "├──󰾲 GPU", "keyColor": "#b7bdf8", "valueColor": "gray", "text": "nvidia-smi --query-gpu=name --format=csv,noheader 2>/dev/null" },
-
-
-    // Statistics
-
+    // Days since root filesystem creation (install date)
     {
-    "type": "command",
-    "key": "├── Root ",
-    "keyColor": "#b7bdf8",
-    "valueColor": "gray",
-    "text":
-    "used=$(df -m / | tail -1 | awk '{print $3}'); total=$(df -m / | tail -1 | awk '{print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '■'; done; for i in $(seq 1 $((10-t))); do echo -n '☐'; done; echo -e \" $perc%\\e[0m\""
+      "type": "command",
+      "key": "  ├ OS Install Age",
+      "keyColor": "#f092ff",
+      "valueColor": "gray",
+      "text": "echo $(((`date +%s` - `stat -c %W /`)/86400)) days"
+    },
+
+    // Live uptime
+    { "type": "uptime", "key": "  ├ Uptime", "keyColor": "#f092ff", "valueColor": "gray" },
+
+    // Current date/time
+    { "type": "datetime", "key": "  └ DateTime", "keyColor": "#f092ff", "valueColor": "gray" },
+
+    "break",
+
+    // ===== Desktop Environment =====
+    { "type": "de", "key": " DE", "keyColor": "#e77593", "valueColor": "gray" },
+    { "type": "wm", "key": "└─┬ ", "keyColor": "#e77593", "valueColor": "gray" },
+    { "type": "terminal", "key": "  ├ ", "keyColor": "#e77593", "valueColor": "gray" },
+    { "type": "shell", "key": "  └ ", "keyColor": "#e77593", "valueColor": "gray" },
+
+    "break",
+
+    // ===== Machine Identification =====
+    {
+      "type": "command",
+      "key": " Host",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+      "text": "hostname"
     },
 
     {
-    "type": "command",
-    "key": "├── Media",
-    "keyColor": "#b7bdf8",
-    "valueColor": "gray",
-    "text":
-    "used=$(df -m /run/media/ab/basement | tail -1 | awk '{print $3}'); total=$(df -m /run/media/ab/basement | tail -1 | awk '{print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '■'; done; for i in $(seq 1 $((10-t))); do echo -n '☐'; done; echo -e \" $perc%\\e[0m\""
+      "type": "command",
+      "key": "└─┬ User",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+      "text": "whoami"
     },
 
+    // CPU model string (first entry in /proc/cpuinfo)
     {
-    "type": "command",
-    "key": "├── CPU  ",
-    "keyColor": "#b7bdf8",
-    "valueColor": "gray",
-    "text":
-    "bash -c 'max=0; for f in /sys/class/hwmon/hwmon*/temp*_input; do [ -f \"$f\" ] && val=$(cat \"$f\" 2>/dev/null); ((val>max)) && max=$val; done; temp=$((max/1000)); perc=$((temp*100/90)); color=32; [ $temp -gt 30 ] && color=93; [ $temp -gt 60 ] && color=33; [ $temp -gt 80 ] && color=31; t=$((perc/10)); echo -ne \"\\e[${color}m\"; for i in $(seq 1 10); do [ $i -le $t ] && echo -n \"●\" || echo -n \"○\"; done; echo -e \" ${temp}°C\\e[0m\"'"
+      "type": "command",
+      "key": "  ├ CPU",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+      "text": "awk -F: '/model name/ {gsub(/^ +| +$/, \"\", $2); print $2; exit}' /proc/cpuinfo"
     },
 
+    // NVIDIA GPU name (silent if no NVIDIA)
     {
-    "type":"command",
-    "key": "└─┬󰾲 GPU  ",
-    "keyColor": "#b7bdf8",
-    "valueColor": "gray",
-    "text":
-    "bash -c 'temp=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits 2>/dev/null); perc=$((temp*100/90)); color=32; [ $temp -gt 30 ] && color=93; [ $temp -gt 60 ] && color=33; [ $temp -gt 80 ] && color=31; t=$((perc/10)); echo -ne \"\\e[${color}m\"; for i in $(seq 1 10); do [ $i -le $t ] && echo -n \"●\" || echo -n \"○\"; done; echo -e \" ${temp}°C\\e[0m\"'"
+      "type": "command",
+      "key": "  ├󰾲 GPU",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+      "text": "nvidia-smi --query-gpu=name --format=csv,noheader 2>/dev/null"
     },
 
+    // Displays detected
+    { "type": "display", "key": "  ├ ", "keyColor": "#b3fdb6", "valueColor": "gray" },
+
+    // Gamepads
+    { "type": "gamepad", "key": "  ├ ", "keyColor": "#b3fdb6", "valueColor": "gray" },
+
+    // ===== Disk Usage Bars =====
+    // Root filesystem bar graph
     {
-    "type":"command",
-    "key": "  └ RAM  ",
-    "keyColor": "#b7bdf8",
-    "valueColor": "gray",
-    "text":
-    "used=$(free -m | awk '/^Mem/ {print $3}'); total=$(free -m | awk '/^Mem/ {print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '●'; done; for i in $(seq 1 $((10-t))); do echo -n '○'; done; echo -e \" $perc%\\e[0m\""
+      "type": "command",
+      "key": "  ├ Root ",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+
+      // Bar: filled block ■ and hollow block ☐
+      // Thresholds: 30/60/80% change ANSI color
+      "text":
+        "used=$(df -m / | tail -1 | awk '{print $3}'); total=$(df -m / | tail -1 | awk '{print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '■'; done; for i in $(seq 1 $((10-t))); do echo -n '☐'; done; echo -e \" $perc%\\e[0m\""
     },
 
+    // Secondary disk: basement
+    {
+      "type": "command",
+      "key": "  ├ Media",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
 
-    // Peripherals
-"break",
-    { "type": "command", "key": "┌USB/HID", "keyColor": "#6e738d", "valueColor": "gray", "text": "[ -n \"$(ls /sys/class/input/event* 2>/dev/null)\" ] && echo 'Connected' || echo 'No devices'" },
-    { "type": "gamepad", "key": "├── ", "keyColor": "#6e738d", "valueColor": "gray" },
-    { "type": "keyboard", "key": "├── ", "keyColor": "#6e738d", "valueColor": "gray" },
-    { "type": "command", "key": "└── ", "keyColor": "#6e738d", "valueColor": "gray", "text": "[ -n \"$(ls /sys/class/input/event* 2>/dev/null)\" ] && echo 'Hivemind Cult' || echo 'No devices'" },
+      // Identical bar logic as root, but target path = /run/media/ab/basement
+      "text":
+        "used=$(df -m /run/media/ab/basement | tail -1 | awk '{print $3}'); total=$(df -m /run/media/ab/basement | tail -1 | awk '{print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '■'; done; for i in $(seq 1 $((10-t))); do echo -n '☐'; done; echo -e \" $perc%\\e[0m\""
+    },
+
+    // ===== CPU Temp Bar =====
+    {
+      "type": "command",
+      "key": "  ├ CPU  ",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+
+      // Finds highest temp across hwmon sensors
+      // Temp->percentage relative to 90°C
+      // Bar uses ● and ○
+      "text":
+        "bash -c 'max=0; for f in /sys/class/hwmon/hwmon*/temp*_input; do [ -f \"$f\" ] && val=$(cat \"$f\" 2>/dev/null); ((val>max)) && max=$val; done; temp=$((max/1000)); perc=$((temp*100/90)); t=$((perc/10)); color=32; [ $temp -gt 30 ] && color=93; [ $temp -gt 60 ] && color=33; [ $temp -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 10); do [ $i -le $t ] && echo -n \"●\" || echo -n \"○\"; done; echo -e \" ${temp}°C\\e[0m\"'"
+    },
+
+    // ===== GPU Temp Bar (NVIDIA) =====
+    {
+      "type": "command",
+      "key": "  ├󰾲 GPU  ",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+
+      // Same bar logic as CPU but uses nvidia-smi for temp
+      "text":
+        "bash -c 'temp=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits 2>/dev/null); perc=$((temp*100/90)); t=$((perc/10)); color=32; [ $temp -gt 30 ] && color=93; [ $temp -gt 60 ] && color=33; [ $temp -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 10); do [ $i -le $t ] && echo -n \"●\" || echo -n \"○\"; done; echo -e \" ${temp}°C\\e[0m\"'"
+    },
+
+    // ===== RAM Bar =====
+    {
+      "type": "command",
+      "key": "  └ RAM  ",
+      "keyColor": "#b3fdb6",
+      "valueColor": "gray",
+
+      // RAM usage bar, also 10 segments using ● and ○
+      "text":
+        "used=$(free -m | awk '/^Mem/ {print $3}'); total=$(free -m | awk '/^Mem/ {print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '●'; done; for i in $(seq 1 $((10-t))); do echo -n '○'; done; echo -e \" $perc%\\e[0m\""
+    },
+
     "break",
 
-    // Media
-    { "type": "command", "key": "♪", "keyColor": "#a6da95", "valueColor": "gray", "text": "playerctl status 2>/dev/null | grep -q . && echo 'Vibin' || echo 'Vibes'" },
-    { "type": "media", "key": "└─┬ ", "keyColor": "#a6da95", "valueColor": "gray" },
-    { "type": "player", "key": "  └ ", "keyColor": "#a6da95", "valueColor": "gray" },
+    // ===== Media Status =====
+    { "type": "sound",  "key": "♪ Vibes",     "keyColor": "#0c94a6", "valueColor": "gray" },
+    { "type": "media",  "key": "└─┬ ", "keyColor": "#0c94a6", "valueColor": "gray" },
+    { "type": "player", "key": "  └ ", "keyColor": "#0c94a6", "valueColor": "gray" },
 
     "break",
-    { "type": "colors", "paddingLeft": 2, "paddingTop":7, "symbol":"circle"},
-    "break",
-]
+
+    // ===== Color Palette Display =====
+    { "type": "colors", "paddingLeft": 2, "paddingTop": 7, "symbol": "circle" },
+
+    "break"
+  ]
 }
