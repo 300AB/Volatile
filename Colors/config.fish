@@ -4,7 +4,7 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 function fish_greeting
     fastfetch \
       --logo-type file \
-      -l ~/.config/fastfetch/output.txt \
+      -l ~/.config/fastfetch/input.txt \
       -c ~/.config/fastfetch/config.jsonc
 end
 
@@ -15,14 +15,14 @@ function fish_prompt
     # Top line: show last command duration if available, else show time
 
     if set -q __fish_command_duration
-        set_color "#a6da95"  # soft green
+        set_color "#124b18"  # soft green
         echo -n "┬"
         set_color "#494d64"  # dark gray-purple
         echo -n " "
         set_color "#494d64"  # dark gray-purple
         echo -n "$__fish_command_duration""s"
     else
-        set_color "#a6da95"  # soft green
+        set_color "#124b18"  # soft green
         echo -n "┬"
         set_color "#494d64"  # dark gray-purple
         echo -n " "
@@ -33,19 +33,19 @@ function fish_prompt
     echo ""
 
     # Bottom line: arrow + username + pwd
-    set_color "#a6da95"  # soft green
+    set_color "#124b18"  # soft green
     echo -n "╰─"
 
-    set_color "#C74395"  # magenta-rose
+    set_color "#00fffa"  # magenta-rose
     echo -n (whoami)
 
-    set_color "#ee99a0"  # desaturated rose/red
+    set_color "#7fda6a"  # desaturated rose/red
     echo -n "@"
 
-    set_color "#AD27F5"  # bright violet
+    set_color "#087469"  # bright violet
     echo -n (pwd)
 
-    set_color "#a6da95"  # soft green
+    set_color "#124b18"  # soft green
     echo -n "⩺ "
 
     set_color normal
