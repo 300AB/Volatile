@@ -95,11 +95,12 @@ function fish_postexec --on-event fish_postexec
 
         # Duration >= 60 seconds -> minutes
         else
-            set mins (math "scale=2; $duration / 60")
+            set mins (math -s 2 "$duration / 60")
             set mins (string match -r '^\d+\.?\d{0,2}' $mins)
             set mins (string replace -r '\.?0+$' '' $mins)
             set -g __fish_command_duration "$mins""m"
         end
+
     else
         set -g __fish_command_duration "0ms"
     end
