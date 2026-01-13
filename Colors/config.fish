@@ -70,38 +70,36 @@ end
 # -------------------------------------
 #  Postexec: calculate command duration with dynamic formatting
 #  Converts:
-#    <1s   -> ms (3 digits max, e.g., 1.23ms)
-#    <60s  -> s  (2 decimals max, trim trailing zeros, e.g., 4s, 1.02s)
-#    >=60s -> m  (2 decimals max, trim trailing zeros, e.g., 1m, 1.03m)
+#    <1s   -> ms (2 decimals max, e.g., 1.23ms)
+#    <60s  -> s  (2 decimals max, e.g., 1.02s)
+#    >=60s -> m  (2 decimals max, e.g., 1.03m)
 # -------------------------------------
 function fish_postexec --on-event fish_postexec
-    if set -q __fish_command_start_time
-        set current_time (date +%s%N)
-        set duration_ns (math "$current_time - $__fish_command_start_time")
-        set duration (math "$duration_ns / 1000000000")
-
-        # Duration < 1 second -> milliseconds
-        if test $duration -lt 1
-            set ms (math "$duration_ns / 1000000")
-            set ms (string match -r '^\d+\.?\d{0,2}' $ms)
-            set ms (string replace -r '\.?0+$' '' $ms)
-            set -g __fish_command_duration "$ms""ms"
-
-        # Duration < 60 seconds -> seconds
-        else if test $duration -lt 60
-            set secs (string match -r '^\d+\.?\d{0,2}' $duration)
-            set secs (string replace -r '\.?0+$' '' $secs)
-            set -g __fish_command_duration "$secs""s"
-
-        # Duration >= 60 seconds -> minutes
-        else
-            set mins (math -s 2 "$duration / 60")
-            set mins (string match -r '^\d+\.?\d{0,2}' $mins)
-            set mins (string replace -r '\.?0+$' '' $mins)
-            set -g __fish_command_duration "$mins""m"
-        end
-
-    else
+    if not set -q __fish_command_start_time
         set -g __fish_command_duration "0ms"
+        return
     end
+
+    set current_time (date +%s%N)
+    set duration_ns (math "$current_time - $__fish_command_start_time")
+    set duration_s (math -s 6 "$duration_ns / 1000000000")
+
+    # Determine unit and value
+    if test $duration_s -lt 1
+        set value (math -s 2 "$duration_ns / 1000000")
+        set unit "ms"
+    else if test $duration_s -lt 60
+        set value (math -s 2 "$duration_s")
+        set unit "s"
+    else
+        set value (math -s 2 "$duration_s / 60")
+        set unit "m"
+    end
+
+    # Remove trailing zeros and unnecessary dot
+    set formatted $value
+    set formatted (string replace -r '\.0+$' '' $formatted)          # Remove ".0" at the end
+    set formatted (string replace -r '(\.\d*?)0+$' '$1' $formatted) # Remove trailing zeros after decimal
+
+    set -g __fish_command_duration "$formatted$unit"
 end
