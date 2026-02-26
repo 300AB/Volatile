@@ -27,6 +27,47 @@ function fish_greeting
       -l ~/.config/fastfetch/input.txt \
       -c ~/.config/fastfetch/config.jsonc
 end
+# -------------------------------------
+#  F5 function, just reloads fish
+# -------------------------------------
+function f5
+    source ~/.config/fish/config.fish
+    echo "Fish reloaded"
+end
+
+# -------------------------------------
+#  Smh Function
+# -------------------------------------
+function smh
+    set msg $argv[1]
+    set raw $argv[2]
+    set amount (string match -r '\d+' $raw)
+    set unit (string match -r '[a-z]+' $raw)
+
+    switch $unit
+        case m min minute minutes
+            set unit "minute"
+        case h hr hour hours
+            set unit "hour"
+    end
+
+    if test $amount -gt 1
+        set unit "$unit"s
+    end
+
+    echo "DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Reminder' '$msg'" | at now + $amount $unit 2>/dev/null
+    echo "⏰ Reminder set for $amount $unit from now"
+end
+
+function smh-undo
+    set last (atq | sort -k1 -n | tail -1 | awk '{print $1}')
+    if test -n "$last"
+        atrm $last
+        echo "❌ Removed job $last"
+    else
+        echo "No jobs in queue"
+    end
+end
 
 # -------------------------------------
 #  Paru edit to colors
