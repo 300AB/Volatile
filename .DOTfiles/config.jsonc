@@ -11,7 +11,7 @@
   //  Network:    #8bd5ca --> #91d7e3
   //  Themes:     #c6a0f6 --> #b37ff6
   //  Media:      #a6da95 --> #0c94a6
-  //  Values:     gray
+  //  Values:     #808080
   //
   //  Bar Colors (ANSI codes):
   //    barLow  = 32   (green)
@@ -24,44 +24,44 @@
     "break",
 
     // ===== OS + System =====
-    { "type": "os", "key": " OS", "keyColor": "#f092ff", "valueColor": "gray" },
-    { "type": "kernel", "key": "└─┬ Version", "keyColor": "#f092ff", "valueColor": "gray" },
+    { "type": "os", "key": " OS", "keyColor": "#f092ff", "outputColor": "#808080" },
+    { "type": "kernel", "key": "└─┬ Version", "keyColor": "#f092ff", "outputColor": "#808080" },
 
     // Days since root filesystem creation (install date)
     {
       "type": "command",
       "key": "  ├ OS Install Age",
       "keyColor": "#f092ff",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "text": "echo $(((`date +%s` - `stat -c %W /`)/86400)) days"
     },
 
     // Live uptime
-    { "type": "uptime", "key": "  ├ Uptime", "keyColor": "#f092ff", "valueColor": "gray" },
+    { "type": "uptime", "key": "  ├ Uptime", "keyColor": "#f092ff", "outputColor": "#808080" },
 
     // Current date/time (12-hour format)
     {
       "type": "command",
       "key": "  └ DateTime",
       "keyColor": "#f092ff",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "text": "date '+%Y-%m-%d %I:%M:%S %p'"
     },
 
     "break",
 
     // ===== Desktop Environment =====
-    { "type": "de", "key": " DE", "keyColor": "#e77593", "valueColor": "gray" },
-    { "type": "wm", "key": "└─┬ ", "keyColor": "#e77593", "valueColor": "gray" },
-    { "type": "terminal", "key": "  ├ ", "keyColor": "#e77593", "valueColor": "gray" },
-    { "type": "shell", "key": "  ├ ", "keyColor": "#e77593", "valueColor": "gray" },
+    { "type": "de", "key": " DE", "keyColor": "#e77593", "outputColor": "#808080" },
+    { "type": "wm", "key": "└─┬ ", "keyColor": "#e77593", "outputColor": "#808080" },
+    { "type": "terminal", "key": "  ├ ", "keyColor": "#e77593", "outputColor": "#808080" },
+    { "type": "shell", "key": "  ├ ", "keyColor": "#e77593", "outputColor": "#808080" },
 
     // GTK Theme
     {
       "type": "command",
       "key": "  ├☺ Theme",
       "keyColor": "#e77593",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "text": "gsettings get org.gnome.desktop.interface gtk-theme 2>/dev/null | tr -d \"'\""
     },
 
@@ -70,7 +70,7 @@
       "type": "command",
       "key": "  └☺ Fonts",
       "keyColor": "#e77593",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "text": "sys=$(gsettings get org.gnome.desktop.interface font-name 2>/dev/null | tr -d \"'\"); term=$(grep -oP 'family\\s*=\\s*\"\\K[^\"]+' ~/.config/wezterm/wezterm.lua 2>/dev/null | head -1); if [ -n \"$term\" ]; then echo \"$sys / $term\"; else echo \"$sys\"; fi"
     },
 
@@ -81,7 +81,7 @@
       "type": "command",
       "key": " Host",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "fish",
       "text": "hostname"
     },
@@ -90,7 +90,7 @@
       "type": "command",
       "key": "└─┬ User",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "fish",
       "text": "whoami"
     },
@@ -100,7 +100,7 @@
       "type": "command",
       "key": "  ├ CPU",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "fish",
       "text": "grep 'model name' /proc/cpuinfo | head -1 | cut -d: -f2 | string trim"
     },
@@ -110,16 +110,16 @@
       "type": "command",
       "key": "  ├󰾲 GPU",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "fish",
       "text": "nvidia-smi --query-gpu=name,temperature.gpu,memory.used,memory.total --format=csv,noheader,nounits 2>/dev/null | read -d, name temp used total; echo $name"
     },
 
     // Displays
-    { "type": "display", "key": "  ├ ", "keyColor": "#b3fdb6", "valueColor": "gray" },
+    { "type": "display", "key": "  ├ ", "keyColor": "#b3fdb6", "outputColor": "#808080" },
 
     // Gamepads
-    { "type": "gamepad", "key": "  ├ ", "keyColor": "#b3fdb6", "valueColor": "gray" },
+    { "type": "gamepad", "key": "  ├ ", "keyColor": "#b3fdb6", "outputColor": "#808080" },
 
     // ===== Disk Usage Bars =====
     // Root filesystem bar - Fish native
@@ -127,7 +127,7 @@
       "type": "command",
       "key": "  ├ Root ",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "bash",
       "text": "used=$(df -m / | tail -1 | awk '{print $3}'); total=$(df -m / | tail -1 | awk '{print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '■'; done; for i in $(seq 1 $((10-t))); do echo -n '☐'; done; echo -e \" $perc%\\e[0m\""
     },
@@ -137,7 +137,7 @@
       "type": "command",
       "key": "  ├ Media",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "bash",
       "text": "used=$(df -m /run/media/ab/basement | tail -1 | awk '{print $3}'); total=$(df -m /run/media/ab/basement | tail -1 | awk '{print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '■'; done; for i in $(seq 1 $((10-t))); do echo -n '☐'; done; echo -e \" $perc%\\e[0m\""
     },
@@ -147,7 +147,7 @@
       "type": "command",
       "key": "  ├ CPU  ",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "bash",
       "text": "bash -c 'max=0; for f in /sys/class/hwmon/hwmon*/temp*_input; do [ -f \"$f\" ] && val=$(cat \"$f\" 2>/dev/null); ((val>max)) && max=$val; done; temp=$((max/1000)); perc=$((temp*100/90)); t=$((perc/10)); color=32; [ $temp -gt 30 ] && color=93; [ $temp -gt 60 ] && color=33; [ $temp -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 10); do [ $i -le $t ] && echo -n \"●\" || echo -n \"○\"; done; echo -e \" ${temp}°C\\e[0m\"'"
     },
@@ -157,7 +157,7 @@
       "type": "command",
       "key": "  ├󰾲 GPU  ",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "bash",
       "text": "bash -c 'temp=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits 2>/dev/null); perc=$((temp*100/90)); t=$((perc/10)); color=32; [ $temp -gt 30 ] && color=93; [ $temp -gt 60 ] && color=33; [ $temp -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 10); do [ $i -le $t ] && echo -n \"●\" || echo -n \"○\"; done; echo -e \" ${temp}°C\\e[0m\"'"
     },
@@ -167,7 +167,7 @@
       "type": "command",
       "key": "  ├󰾲 VRAM ",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "bash",
       "text": "nvidia-smi --query-gpu=memory.used,memory.total --format=csv,noheader,nounits 2>/dev/null | awk -F, '{used=$1; total=$2; perc=int(used*100/total); t=int(perc/10); color=32; if(perc>30) color=93; if(perc>60) color=33; if(perc>80) color=31; printf \"\\033[%dm\", color; for(i=1;i<=t;i++) printf \"■\"; for(i=1;i<=10-t;i++) printf \"☐\"; printf \" %d%% (%d/%d MB)\\033[0m\\n\", perc, used, total}'"
     },
@@ -177,7 +177,7 @@
       "type": "command",
       "key": "  └ RAM  ",
       "keyColor": "#b3fdb6",
-      "valueColor": "gray",
+      "outputColor": "#808080",
       "shell": "bash",
       "text": "used=$(free -m | awk '/^Mem/ {print $3}'); total=$(free -m | awk '/^Mem/ {print $2}'); perc=$((used*100/total)); t=$((perc/10)); color=32; [ $perc -gt 30 ] && color=93; [ $perc -gt 60 ] && color=33; [ $perc -gt 80 ] && color=31; echo -ne \"\\e[${color}m\"; for i in $(seq 1 $t); do echo -n '●'; done; for i in $(seq 1 $((10-t))); do echo -n '○'; done; echo -e \" $perc%\\e[0m\""
     },
@@ -185,14 +185,14 @@
     "break",
 
     // ===== Media Status =====
-    { "type": "sound",  "key": "  Vibes",     "keyColor": "#0c94a6", "valueColor": "gray" },
-    { "type": "media",  "key": "└─┬ ", "keyColor": "#0c94a6", "valueColor": "gray" },
-    { "type": "player", "key": "  └ ", "keyColor": "#0c94a6", "valueColor": "gray" },
+    { "type": "sound",  "key": "  Vibes",     "keyColor": "#0c94a6", "outputColor": "#808080" },
+    { "type": "media",  "key": "└─┬ ", "keyColor": "#0c94a6", "outputColor": "#808080" },
+    { "type": "player", "key": "  └ ", "keyColor": "#0c94a6", "outputColor": "#808080" },
 
     "break",
 
     // ===== Color Palette Display =====
-    { "type": "colors", "paddingLeft": 2, "paddingTop": 7, "symbol": "circle" },
+    { "type": "colors", "paddingLeft": 2, "symbol": "circle" },
 
     "break"
   ]

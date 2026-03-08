@@ -70,18 +70,22 @@ function smh-undo
 end
 
 # -------------------------------------
-#  Paru edit to colors
+#  REPLACING PARU -SS SEARCH BECAUSE IT GETS FUSSY WHEN I COLOR IT
 # -------------------------------------
 
 function paru
-    set green (set_color green)
-    set blue (set_color blue)
-    set normal (set_color normal)
-    set pkg_name (set_color magenta)
-    set bracket (set_color brblack)
-    command paru --color=always $argv | \
-        sed -E 's/\[(\x1b\[1m)(\+[0-9]+) (~[0-9.]+)(\x1b\[0m)\]/'"$bracket"'['"$green"'\2 '"$blue"'\3'"$bracket"']'"$normal"'/g' | \
-        sed -E 's|/(\x1b\[1m)([a-zA-Z0-9._-]+)(\x1b\[0m)|'"$bracket"'/'"$pkg_name"'\2'"$normal"'|g'
+    if contains -- -Ss $argv
+        set green (set_color green)
+        set blue (set_color blue)
+        set normal (set_color normal)
+        set pkg_name (set_color magenta)
+        set bracket (set_color brblack)
+        command paru --color=always $argv | \
+            sed -E 's/\[(\x1b\[1m)(\+[0-9]+) (~[0-9.]+)(\x1b\[0m)\]/'"$bracket"'['"$green"'\2 '"$blue"'\3'"$bracket"']'"$normal"'/g' | \
+            sed -E 's|/(\x1b\[1m)([a-zA-Z0-9._-]+)(\x1b\[0m)|'"$bracket"'/'"$pkg_name"'\2'"$normal"'|g'
+    else
+        command paru $argv
+    end
 end
 
 # -------------------------------------
