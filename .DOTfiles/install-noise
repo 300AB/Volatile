@@ -1,465 +1,539 @@
-==> Entering fakeroot environment...
-==> Starting package()...
--- Install configuration: ""
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/config
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/config/config.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/config/main.xml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/buymeacoffee.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/discord.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/error.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/github.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/githubsponsors.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/githubstar.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/icon.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/kde.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/kofi.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/liberapay.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/matrix.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/matrix_logo.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/patreon.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/paypal.svg
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/CompactRepresentation.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusFallback.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusMethodCall.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusPrimary.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusServiceModel.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusSignalMonitor.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/Enums.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/RunCommand.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/TasksModel.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/TrayIconReplacementsModel.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/enum.js
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/globals.js
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/statusNotifierItemIconRules.js
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/utils.js
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/version.js
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/CategoryDisabled.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorButton.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorEffect.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorPickerGradientList.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorPickerList.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColoredButton.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ConfiguringIndicator.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/CustomBackground.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/CustomBorder.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/DesktopView.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/DoubleSpinBoxCompat.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormBorder.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormColors.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormPadding.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormShadow.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormShape.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormWidgetSettings.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/GradientRoundedRectangle.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/Header.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ImageRoundedRectangle.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PanelElementHint.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PlasmoidIcon.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PopupView.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PresetAutoLoadingHint.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/RectangularGrid.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/RepaintDebug.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/SettingImportExport.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/SupportMe.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ValueMouseControl.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardBlacklist.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardConfig.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardHide.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardIslands.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardOverride.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardTextIconFixes.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetIslandsHint.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetOverrideHint.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetStateHint.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetTextIconFixHint.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configAppearance.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configBlacklistWidgets.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configGeneral.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configGlobalWidgetOverrides.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configHideWidgets.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configPresetAutoload.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configPresetWidgetOverrides.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configPresets.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configStockPanelSettings.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configSupportMe.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configTextIconFix.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configTrayIconsReplacer.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configWidgetIslands.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/main.qml
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Color Lines
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Color Lines/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Color Lines/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Gray Lines
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Gray Lines/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Gray Lines/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss Light
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss Light/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss Light/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets 2
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets 2/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets 2/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Carbon
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Carbon/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Carbon/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/ChromeOS
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/ChromeOS/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/ChromeOS/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Default
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Default/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Default/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Dock
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Dock/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Dock/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Eclipse
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Eclipse/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Eclipse/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fake Floating
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fake Floating/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fake Floating/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 2
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 2/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 2/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 3
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 3/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 3/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Neon Lights
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Neon Lights/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Neon Lights/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/OG
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/OG/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/OG/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Orbit
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Orbit/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Orbit/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Accent
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Accent/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Accent/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Colors
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Colors/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Colors/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Pulse
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Pulse/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Pulse/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/README.md
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets Floating
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets Floating/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets Floating/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rubik
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rubik/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rubik/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic 2
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic 2/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic 2/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic white
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic white/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic white/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skittles
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skittles/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skittles/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sky
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sky/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sky/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sleek
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sleek/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sleek/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Solid
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Solid/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Solid/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Translucent
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Translucent/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Translucent/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Transparent
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Transparent/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Transparent/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/White
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/White/preview.png
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/White/settings.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/gdbus_get_signal.sh
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/list_presets.sh
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/service.py
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/ca
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/ca/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/ca/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/de
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/de/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/de/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/fi
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/fi/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/fi/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/hu
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/hu/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/hu/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/nl
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/nl/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/nl/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/pl
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/pl/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/pl/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/uk
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/uk/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/uk/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh_TW
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh_TW/LC_MESSAGES
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh_TW/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/metadata.json
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/ReadMe.md
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/ca.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/de.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/fi.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/hu.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/nl.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/pl.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/template.pot
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/uk.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/zh.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/zh_TW.po
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/lib/qt6/qml/org/kde/plasma/panelcolorizer/libpanelcolorizerplugin.so
--- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/lib/qt6/qml/org/kde/plasma/panelcolorizer/qmldir
-==> Tidying install...
-  -> Removing libtool files...
-  -> Removing static library files...
-  -> Purging unwanted files...
-  -> Stripping unneeded symbols from binaries and libraries...
-  -> Compressing man and info pages...
-==> Checking for packaging issues...
-==> Creating package "plasma6-applets-panel-colorizer"...
-  -> Generating .PKGINFO file...
-  -> Generating .BUILDINFO file...
-  -> Generating .MTREE file...
-  -> Compressing package...
-==> Leaving fakeroot environment.
-==> Finished making: plasma6-applets-panel-colorizer 6.9.1-1 (Sat 28 Mar 2026 03:30:05 PM CDT)
-==> Cleaning up...
-loading packages...
+┬ 4:54PM
+╰─ab@/home/ab⩺ weave-install
+🧵 Weave package installer
+
+Install CachyOS default packages? (already present on CachyOS) [y/N] y
+Install KDE-only packages? [y/N] y
+⏎
+📦 Installing official packages...
+[sudo] password for ab:
+warning: wezterm-20240203.110809.5046fc22-2.1 is up to date -- skipping
+warning: fastfetch-2.60.0-1.1 is up to date -- skipping
+warning: tealdeer-1.8.1-2.1 is up to date -- skipping
+warning: bat-0.26.1-2.1 is up to date -- skipping
+warning: eza-0.23.4-3.1 is up to date -- skipping
+warning: kate-25.12.3-1.1 is up to date -- skipping
+warning: dolphin-25.12.3-1.1 is up to date -- skipping
+warning: spectacle-1:6.6.3-2.1 is up to date -- skipping
+warning: floorp-bin-12.12.0-1 is up to date -- skipping
+warning: vim-9.2.0204-2.1 is up to date -- skipping
+error: target not found: ludusavi
+warning: fish-4.5.0-2 is up to date -- skipping
+warning: paru-2.1.0-2 is up to date -- skipping
+warning: git-2.53.0-1.1 is up to date -- skipping
+warning: kdeconnect-25.12.3-1.1 is up to date -- skipping
+warning: gwenview-25.12.3-1.1 is up to date -- skipping
+
+📦 Installing AUR packages...
+warning: protonplus-0.5.17-1 is up to date -- skipping
+ there is nothing to do
+:: Resolving dependencies...
+:: There are 2 providers available for spicetify-cli:
+:: Repository AUR:
+    1) spicetify-cli  2) spicetify-cli-git
+Enter a number (default=1): 2
+:: There are 2 providers available for millennium:
+:: Repository AUR:
+    1) millennium  2) millennium-git
+Enter a number (default=1): 2
+
+:: There are 34 providers available for lib32-vulkan-driver:
+:: Repository cachyos-znver4:
+    1) lib32-mesa-git  2) lib32-nvidia-utils
+:: Repository cachyos:
+    3) lib32-nvidia-390xx-utils  4) lib32-nvidia-470xx-utils  5) lib32-nvidia-535xx-utils  6) lib32-nvidia-550xx-utils  7) lib32-nvidia-580xx-utils  8) lib32-nvidia-utils  9) lib32-vulkan-asahi  10) lib32-vulkan-broadcom  11) lib32-vulkan-dzn  12) lib32-vulkan-freedreno  13) lib32-vulkan-gfxstream  14) lib32-vulkan-intel  15) lib32-vulkan-nouveau  16) lib32-vulkan-panfrost  17) lib32-vulkan-powervr  18) lib32-vulkan-radeon  19) lib32-vulkan-swrast  20) lib32-vulkan-virtio
+:: Repository multilib:
+    21) lib32-nvidia-utils  22) lib32-vulkan-asahi  23) lib32-vulkan-broadcom  24) lib32-vulkan-dzn  25) lib32-vulkan-freedreno  26) lib32-vulkan-gfxstream  27) lib32-vulkan-intel  28) lib32-vulkan-kosmickrisp  29) lib32-vulkan-nouveau  30) lib32-vulkan-panfrost  31) lib32-vulkan-powervr  32) lib32-vulkan-radeon  33) lib32-vulkan-swrast  34) lib32-vulkan-virtio
+Enter a number (default=1):
+:: protonhax-1.0.5-4 is up to date -- skipping
+:: plasma6-applets-panel-colorizer-6.9.1-1 is up to date -- skipping
+:: kwin-effects-better-blur-dx-2.3.0-1 is up to date -- skipping
+:: Calculating conflicts...
+:: Calculating inner conflicts...
+
+:: Inner conflicts found:
+    lib32-mesa: lib32-mesa-git (lib32-mesa)  lib32-mesa-git (lib32-libva-mesa-driver)
+    lib32-mesa-git: lib32-mesa (lib32-libva-mesa-driver<1:24.2.7-1)
+
+:: Conflicting packages will have to be confirmed manually
+
+Repo (81)                         Old Version  New Version                        Make Only
+cachyos/lib32-mesa                             2:26.0.3-2                         No
+cachyos-extra-znver4/bun                       1.3.11-1.1                         Yes
+cachyos-extra-znver4/lsof                      4.99.6-1.1                         No
+cachyos-extra-znver4/zenity                    4.2.2-1.1                          No
+cachyos-znver4/go                              2:1.26.1-2                         Yes
+cachyos-znver4/lib32-gcc-libs                  15.2.1+r604+g0b99615a8aef-2        No
+cachyos-znver4/lib32-glibc                     2.43+r5+g856c426a7534-4            No
+cachyos-znver4/lib32-mesa-git                  26.1.0_devel.220255.d6958a5e432-1  No
+cachyos-znver4/lib32-zstd                      1.5.7-2                            No
+extra/zip                                      3.0-11                             Yes
+multilib/lib32-alsa-lib                        1.2.15.3-1                         No
+multilib/lib32-alsa-plugins                    1.2.12-1                           No
+multilib/lib32-brotli                          1.1.0-1                            No
+multilib/lib32-bzip2                           1.0.8-4                            No
+multilib/lib32-curl                            8.19.0-1                           No
+multilib/lib32-dbus                            1.16.2-1                           No
+multilib/lib32-e2fsprogs                       1.47.4-1                           No
+multilib/lib32-expat                           2.7.5-1                            No
+multilib/lib32-fontconfig                      2:2.17.1-1                         No
+multilib/lib32-freetype2                       2.14.3-1                           No
+multilib/lib32-glib2                           2.86.4-1                           No
+multilib/lib32-gmp                             6.3.0-2                            No
+multilib/lib32-gnutls                          3.8.12-1                           No
+multilib/lib32-icu                             78.3-1                             No
+multilib/lib32-json-c                          0.18-2                             No
+multilib/lib32-keyutils                        1.6.3-2                            No
+multilib/lib32-krb5                            1.21.3-1                           No
+multilib/lib32-libdrm                          2.4.131-1                          No
+multilib/lib32-libelf                          0.194-1                            No
+multilib/lib32-libffi                          3.5.2-1                            No
+multilib/lib32-libgcrypt                       1.12.1-1                           No
+multilib/lib32-libglvnd                        1.7.0-1                            No
+multilib/lib32-libgpg-error                    1.59-1                             No
+multilib/lib32-libidn2                         2.3.8-1                            No
+multilib/lib32-libldap                         2.6.13-1                           No
+multilib/lib32-libnghttp2                      1.68.1-1                           No
+multilib/lib32-libnghttp3                      1.15.0-1                           No
+multilib/lib32-libngtcp2                       1.21.0-1                           No
+multilib/lib32-libnm                           1.56.0-1                           No
+multilib/lib32-libpciaccess                    0.19-1                             No
+multilib/lib32-libpipewire                     1:1.6.2-1                          No
+multilib/lib32-libpng                          1.6.56-1                           No
+multilib/lib32-libpsl                          0.21.5-1                           No
+multilib/lib32-libssh2                         1.11.1-1                           No
+multilib/lib32-libtasn1                        4.21.0-1                           No
+multilib/lib32-libunistring                    1.3-1                              No
+multilib/lib32-libva                           2.22.0-1                           No
+multilib/lib32-libx11                          1.8.13-1                           No
+multilib/lib32-libxau                          1.0.12-1                           No
+multilib/lib32-libxcb                          1.17.0-1                           No
+multilib/lib32-libxcrypt                       4.5.2-1                            No
+multilib/lib32-libxcrypt-compat                4.5.2-1                            No
+multilib/lib32-libxdamage                      1.1.7-1                            No
+multilib/lib32-libxdmcp                        1.1.5-1                            No
+multilib/lib32-libxext                         1.3.7-1                            No
+multilib/lib32-libxfixes                       6.0.1-2                            No
+multilib/lib32-libxinerama                     1.1.6-1                            No
+multilib/lib32-libxml2                         2.15.2-1                           No
+multilib/lib32-libxshmfence                    1.3.3-1                            No
+multilib/lib32-libxss                          1.2.4-2                            No
+multilib/lib32-libxxf86vm                      1.1.5-2                            No
+multilib/lib32-llvm-libs                       1:22.1.2-1                         No
+multilib/lib32-lm_sensors                      1:3.6.2-2                          No
+multilib/lib32-ncurses                         6.6-2                              No
+multilib/lib32-nettle                          3.10.2-1                           No
+multilib/lib32-nspr                            4.38.2-1                           No
+multilib/lib32-nss                             3.122-1                            No
+multilib/lib32-openssl                         1:3.6.1-1                          No
+multilib/lib32-p11-kit                         0.26.2-1                           No
+multilib/lib32-pcre2                           10.47-1                            No
+multilib/lib32-pipewire                        1:1.6.2-1                          No
+multilib/lib32-spirv-tools                     1:1.4.341.0-1                      No
+multilib/lib32-sqlite                          3.52.0-1                           No
+multilib/lib32-systemd                         260.1-1                            No
+multilib/lib32-util-linux                      2.41.3-1                           No
+multilib/lib32-vulkan-icd-loader               1.4.341.0-1                        No
+multilib/lib32-wayland                         1.24.0-1                           No
+multilib/lib32-xz                              5.8.2-1                            No
+multilib/lib32-zlib                            1.3.2-1                            No
+multilib/steam                                 1.0.0.85-5                         No
+multilib/steam-devices                         1.0.0.85-5                         No
+
+Aur (3)                           Old Version  New Version                        Make Only
+aur/spicetify-cli-git                          2.16.1.r1.gd5cc68f-1               No
+aur/lib32-python311-bin                        3.11.8-6                           No
+aur/millennium-git                             v3.0.0.beta.10.r4.geeca662a-1      No
+
+:: Proceed to review? [Y/n]:
+
+:: Downloading PKGBUILDs...
+ (1/1) spicetify-cli-git-2.16.1.r1.gd5cc68f-1        [-----------------------------------------------------------------]
+Paging with less. Press 'q' to quit or 'h' for help.
+
+:: spicetify-cli-git:
+  PKGBUILD:
+    # Maintainer: Francesco Minnocci <ascoli dot mimnnocci at gmail dot com>
+
+    _gitname=spicetify-cli
+    pkgname="${_gitname}-git"
+    pkgver=2.16.1.r1.gd5cc68f
+    pkgrel=1
+    pkgdesc='Command-line tool to customize Spotify client - Git master branch'
+    arch=('x86_64' 'i686')
+    url="https://github.com/spicetify/${_gitname}"
+    license=('LGPL2.1')
+    makedepends=('git' 'go')
+    source=("git+${url}.git")
+    sha256sums=('SKIP')
+    provides=("${_gitname}")
+    conflicts=("${_gitname}")
+
+    pkgver() {
+        cd "$srcdir/${_gitname}"
+
+      git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+    }
+
+    prepare() {
+        cd "$srcdir/${_gitname}"
+
+      echo "#!/bin/sh
+    /usr/share/${_gitname}/spicetify \"\$@\"" > ./shortcut
+    }
+
+    build() {
+:: Accept changes? [Y/n]: y
 resolving dependencies...
 looking for conflicting packages...
+warning: removing 'lib32-mesa-2:26.0.3-2' from target list because it conflicts with 'lib32-mesa-git-26.1.0_devel.220255.d6958a5e432-1'
 
-Package (1)                      New Version  Net Change
+Package (80)                      New Version                        Net Change  Download Size
 
-plasma6-applets-panel-colorizer  6.9.1-1        2.69 MiB
+cachyos-extra-znver4/bun          1.3.11-1.1                          61.25 MiB      16.79 MiB
+cachyos-znver4/go                 2:1.26.1-2                         215.33 MiB      39.13 MiB
+multilib/lib32-alsa-lib           1.2.15.3-1                           1.03 MiB       0.37 MiB
+multilib/lib32-alsa-plugins       1.2.12-1                             0.27 MiB       0.06 MiB
+multilib/lib32-brotli             1.1.0-1                              0.86 MiB       0.33 MiB
+multilib/lib32-bzip2              1.0.8-4                              0.07 MiB       0.03 MiB
+multilib/lib32-curl               8.19.0-1                             0.92 MiB       0.40 MiB
+multilib/lib32-dbus               1.16.2-1                             0.32 MiB       0.12 MiB
+multilib/lib32-e2fsprogs          1.47.4-1                             0.52 MiB       0.22 MiB
+multilib/lib32-expat              2.7.5-1                              0.18 MiB       0.07 MiB
+multilib/lib32-fontconfig         2:2.17.1-1                           0.32 MiB       0.14 MiB
+multilib/lib32-freetype2          2.14.3-1                             0.78 MiB       0.37 MiB
+cachyos-znver4/lib32-gcc-libs     15.2.1+r604+g0b99615a8aef-2         50.28 MiB      11.36 MiB
+multilib/lib32-glib2              2.86.4-1                             3.72 MiB       1.18 MiB
+cachyos-znver4/lib32-glibc        2.43+r5+g856c426a7534-4             20.21 MiB       3.79 MiB
+multilib/lib32-gmp                6.3.0-2                              0.76 MiB       0.27 MiB
+multilib/lib32-gnutls             3.8.12-1                             2.19 MiB       0.81 MiB
+multilib/lib32-icu                78.3-1                              37.64 MiB      10.86 MiB
+multilib/lib32-json-c             0.18-2                               0.08 MiB       0.03 MiB
+multilib/lib32-keyutils           1.6.3-2                              0.02 MiB       0.01 MiB
+multilib/lib32-krb5               1.21.3-1                             2.12 MiB       0.76 MiB
+multilib/lib32-libdrm             2.4.131-1                            0.36 MiB       0.14 MiB
+multilib/lib32-libelf             0.194-1                              0.81 MiB       0.30 MiB
+multilib/lib32-libffi             3.5.2-1                              0.04 MiB       0.02 MiB
+multilib/lib32-libgcrypt          1.12.1-1                             1.12 MiB       0.49 MiB
+multilib/lib32-libglvnd           1.7.0-1                              1.33 MiB       0.20 MiB
+multilib/lib32-libgpg-error       1.59-1                               0.16 MiB       0.07 MiB
+multilib/lib32-libidn2            2.3.8-1                              0.12 MiB       0.05 MiB
+multilib/lib32-libldap            2.6.13-1                             0.40 MiB       0.16 MiB
+multilib/lib32-libnghttp2         1.68.1-1                             0.16 MiB       0.06 MiB
+multilib/lib32-libnghttp3         1.15.0-1                             0.16 MiB       0.07 MiB
+multilib/lib32-libngtcp2          1.21.0-1                             0.42 MiB       0.17 MiB
+multilib/lib32-libnm              1.56.0-1                             1.39 MiB       0.44 MiB
+multilib/lib32-libpciaccess       0.19-1                               0.04 MiB       0.02 MiB
+multilib/lib32-libpipewire        1:1.6.2-1                            0.95 MiB       0.31 MiB
+multilib/lib32-libpng             1.6.56-1                             0.28 MiB       0.13 MiB
+multilib/lib32-libpsl             0.21.5-1                             0.07 MiB       0.05 MiB
+multilib/lib32-libssh2            1.11.1-1                             0.28 MiB       0.11 MiB
+multilib/lib32-libtasn1           4.21.0-1                             0.08 MiB       0.04 MiB
+multilib/lib32-libunistring       1.3-1                                1.85 MiB       0.54 MiB
+multilib/lib32-libva              2.22.0-1                             0.27 MiB       0.08 MiB
+multilib/lib32-libx11             1.8.13-1                             1.28 MiB       0.61 MiB
+multilib/lib32-libxau             1.0.12-1                             0.01 MiB       0.01 MiB
+multilib/lib32-libxcb             1.17.0-1                             1.03 MiB       0.19 MiB
+multilib/lib32-libxcrypt          4.5.2-1                              0.17 MiB       0.07 MiB
+multilib/lib32-libxcrypt-compat   4.5.2-1                              0.18 MiB       0.07 MiB
+multilib/lib32-libxdamage         1.1.7-1                              0.01 MiB       0.01 MiB
+multilib/lib32-libxdmcp           1.1.5-1                              0.02 MiB       0.01 MiB
+multilib/lib32-libxext            1.3.7-1                              0.07 MiB       0.03 MiB
+multilib/lib32-libxfixes          6.0.1-2                              0.02 MiB       0.01 MiB
+multilib/lib32-libxinerama        1.1.6-1                              0.01 MiB       0.01 MiB
+multilib/lib32-libxml2            2.15.2-1                             1.16 MiB       0.48 MiB
+multilib/lib32-libxshmfence       1.3.3-1                              0.01 MiB       0.01 MiB
+multilib/lib32-libxss             1.2.4-2                              0.01 MiB       0.01 MiB
+multilib/lib32-libxxf86vm         1.1.5-2                              0.02 MiB       0.01 MiB
+multilib/lib32-llvm-libs          1:22.1.2-1                         165.63 MiB      41.32 MiB
+multilib/lib32-lm_sensors         1:3.6.2-2                            0.05 MiB       0.02 MiB
+cachyos-znver4/lib32-mesa-git     26.1.0_devel.220255.d6958a5e432-1  207.38 MiB      35.59 MiB
+multilib/lib32-ncurses            6.6-2                                0.57 MiB       0.22 MiB
+multilib/lib32-nettle             3.10.2-1                             0.57 MiB       0.32 MiB
+multilib/lib32-nspr               4.38.2-1                             0.26 MiB       0.11 MiB
+multilib/lib32-nss                3.122-1                              3.08 MiB       1.11 MiB
+multilib/lib32-openssl            1:3.6.1-1                            5.34 MiB       2.00 MiB
+multilib/lib32-p11-kit            0.26.2-1                             3.10 MiB       0.43 MiB
+multilib/lib32-pcre2              10.47-1                              1.83 MiB       0.50 MiB
+multilib/lib32-pipewire           1:1.6.2-1                            5.56 MiB       1.43 MiB
+multilib/lib32-spirv-tools        1:1.4.341.0-1                        6.20 MiB       1.62 MiB
+multilib/lib32-sqlite             3.52.0-1                             1.46 MiB       0.71 MiB
+multilib/lib32-systemd            260.1-1                              2.63 MiB       0.84 MiB
+multilib/lib32-util-linux         2.41.3-1                             1.07 MiB       0.40 MiB
+multilib/lib32-vulkan-icd-loader  1.4.341.0-1                          0.59 MiB       0.15 MiB
+multilib/lib32-wayland            1.24.0-1                             0.16 MiB       0.05 MiB
+multilib/lib32-xz                 5.8.2-1                              0.21 MiB       0.10 MiB
+multilib/lib32-zlib               1.3.2-1                              0.09 MiB       0.05 MiB
+cachyos-znver4/lib32-zstd         1.5.7-2                              1.15 MiB       0.41 MiB
+cachyos-extra-znver4/lsof         4.99.6-1.1                           0.39 MiB       0.16 MiB
+multilib/steam                    1.0.0.85-5                          19.45 MiB      19.35 MiB
+multilib/steam-devices            1.0.0.85-5                           0.01 MiB       0.01 MiB
+cachyos-extra-znver4/zenity       4.2.2-1.1                            5.03 MiB       2.65 MiB
+extra/zip                         3.0-11                               0.55 MiB       0.17 MiB
 
-Total Installed Size:  2.69 MiB
+Total Download Size:   201.81 MiB
+Total Installed Size:  845.55 MiB
 
-:: Proceed with installation? [Y/n] 
-(1/1) checking keys in keyring                                                 [---------------------------------------------] 100%
-(1/1) checking package integrity                                               [---------------------------------------------] 100%
-(1/1) loading package files                                                    [---------------------------------------------] 100%
-(1/1) checking for file conflicts                                              [---------------------------------------------] 100%
+:: Proceed with installation? [Y/n] y
+:: Retrieving packages...
+ zenity-4.2.2-1.1-x86_64_v4                    2.7 MiB   926 KiB/s 00:03 [----------------------------------------] 100%
+ lib32-glibc-2.43+r5+g856c426a7534-4-x8...     3.8 MiB   981 KiB/s 00:04 [----------------------------------------] 100%
+ lib32-openssl-1:3.6.1-1-x86_64                2.0 MiB   358 KiB/s 00:06 [----------------------------------------] 100%
+ lib32-spirv-tools-1:1.4.341.0-1-x86_64     1663.8 KiB   578 KiB/s 00:03 [----------------------------------------] 100%
+ lib32-glib2-2.86.4-1-x86_64                1211.7 KiB   734 KiB/s 00:02 [----------------------------------------] 100%
+ lib32-pipewire-1:1.6.2-1-x86_64            1464.7 KiB   349 KiB/s 00:04 [----------------------------------------] 100%
+ lib32-gcc-libs-15.2.1+r604+g0b99615a8a...    11.4 MiB  1355 KiB/s 00:09 [----------------------------------------] 100%
+ lib32-gnutls-3.8.12-1-x86_64                832.4 KiB   608 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-krb5-1.21.3-1-x86_64                  775.4 KiB   549 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-systemd-260.1-1-x86_64                861.8 KiB   369 KiB/s 00:02 [----------------------------------------] 100%
+ lib32-nss-3.122-1-x86_64                   1140.1 KiB   280 KiB/s 00:04 [----------------------------------------] 100%
+ lib32-sqlite-3.52.0-1-x86_64                723.0 KiB   912 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-pcre2-10.47-1-x86_64                  515.8 KiB   466 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-libunistring-1.3-1-x86_64             557.7 KiB   290 KiB/s 00:02 [----------------------------------------] 100%
+ lib32-libgcrypt-1.12.1-1-x86_64             497.2 KiB   368 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-libx11-1.8.13-1-x86_64                620.0 KiB   249 KiB/s 00:02 [----------------------------------------] 100%
+ lib32-libxml2-2.15.2-1-x86_64               494.0 KiB   563 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-libnm-1.56.0-1-x86_64                 453.9 KiB   550 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-util-linux-2.41.3-1-x86_64            413.2 KiB   497 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-zstd-1.5.7-2-x86_64_v4                423.7 KiB   420 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-p11-kit-0.26.2-1-x86_64               439.0 KiB   356 KiB/s 00:01 [----------------------------------------] 100%
+ bun-1.3.11-1.1-x86_64_v4                     16.8 MiB  1192 KiB/s 00:14 [----------------------------------------] 100%
+ lib32-curl-8.19.0-1-x86_64                  409.5 KiB   711 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-freetype2-2.14.3-1-x86_64             381.4 KiB   391 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-brotli-1.1.0-1-x86_64                 340.5 KiB   234 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-alsa-lib-1.2.15.3-1-x86_64            383.5 KiB   211 KiB/s 00:02 [----------------------------------------] 100%
+ lib32-libpipewire-1:1.6.2-1-x86_64          316.7 KiB   364 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-nettle-3.10.2-1-x86_64                330.5 KiB   204 KiB/s 00:02 [----------------------------------------] 100%
+ lib32-libelf-0.194-1-x86_64                 312.1 KiB   472 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-e2fsprogs-1.47.4-1-x86_64             224.3 KiB   755 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-ncurses-6.6-2-x86_64                  220.9 KiB   850 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libglvnd-1.7.0-1-x86_64               202.7 KiB   423 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libngtcp2-1.21.0-1-x86_64             172.0 KiB   334 KiB/s 00:01 [----------------------------------------] 100%
+ zip-3.0-11-x86_64                           169.9 KiB   325 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-gmp-6.3.0-2-x86_64                    276.9 KiB   235 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-libxcb-1.17.0-1-x86_64                196.1 KiB   258 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-libldap-2.6.13-1-x86_64               160.1 KiB   699 KiB/s 00:00 [----------------------------------------] 100%
+ lsof-4.99.6-1.1-x86_64_v4                   161.3 KiB   512 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-vulkan-icd-loader-1.4.341.0-1-x86_64  152.0 KiB   598 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-fontconfig-2:2.17.1-1-x86_64          143.5 KiB   603 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libdrm-2.4.131-1-x86_64               140.3 KiB   304 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libpng-1.6.56-1-x86_64                129.1 KiB   320 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-dbus-1.16.2-1-x86_64                  125.3 KiB   267 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libssh2-1.11.1-1-x86_64               114.9 KiB   226 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-nspr-4.38.2-1-x86_64                  110.0 KiB   325 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-xz-5.8.2-1-x86_64                     104.8 KiB   224 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libva-2.22.0-1-x86_64                  85.9 KiB   364 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxcrypt-compat-4.5.2-1-x86_64        74.9 KiB   262 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libgpg-error-1.59-1-x86_64             73.5 KiB   474 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-expat-2.7.5-1-x86_64                   69.9 KiB   231 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libnghttp2-1.68.1-1-x86_64             64.7 KiB   225 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxcrypt-4.5.2-1-x86_64               73.7 KiB   158 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libnghttp3-1.15.0-1-x86_64             67.5 KiB   135 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-alsa-plugins-1.2.12-1-x86_64           63.8 KiB   204 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-wayland-1.24.0-1-x86_64                54.8 KiB   134 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libpsl-0.21.5-1-x86_64                 55.5 KiB   107 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-libidn2-2.3.8-1-x86_64                 53.8 KiB   119 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-zlib-1.3.2-1-x86_64                    48.7 KiB   107 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libtasn1-4.21.0-1-x86_64               37.4 KiB  93.1 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-json-c-0.18-2-x86_64                   35.6 KiB  94.4 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-bzip2-1.0.8-4-x86_64                   32.4 KiB   101 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-lm_sensors-1:3.6.2-2-x86_64            22.8 KiB  74.3 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libffi-3.5.2-1-x86_64                  18.9 KiB  43.4 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxext-1.3.7-1-x86_64                 26.6 KiB  60.5 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libpciaccess-0.19-1-x86_64             17.9 KiB  49.4 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxfixes-6.0.1-2-x86_64                9.5 KiB  83.8 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxdmcp-1.1.5-1-x86_64                10.3 KiB  28.2 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxss-1.2.4-2-x86_64                   6.5 KiB  35.1 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxxf86vm-1.1.5-2-x86_64               9.2 KiB  18.0 KiB/s 00:01 [----------------------------------------] 100%
+ lib32-keyutils-1.6.3-2-x86_64                 8.7 KiB  18.8 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxau-1.0.12-1-x86_64                  6.8 KiB  15.1 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxinerama-1.1.6-1-x86_64              5.7 KiB  33.0 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-icu-78.3-1-x86_64                      10.9 MiB   496 KiB/s 00:22 [----------------------------------------] 100%
+ lib32-libxdamage-1.1.7-1-x86_64               6.0 KiB  16.3 KiB/s 00:00 [----------------------------------------] 100%
+ steam-devices-1.0.0.85-5-x86_64               5.2 KiB  59.6 KiB/s 00:00 [----------------------------------------] 100%
+ lib32-libxshmfence-1.3.3-1-x86_64             5.1 KiB  13.2 KiB/s 00:00 [----------------------------------------] 100%
+ steam-1.0.0.85-5-x86_64                      19.4 MiB   769 KiB/s 00:26 [----------------------------------------] 100%
+ lib32-llvm-libs-1:22.1.2-1-x86_64            41.3 MiB  1641 KiB/s 00:26 [----------------------------------------] 100%
+ go-2:1.26.1-2-x86_64_v4                      39.1 MiB  1310 KiB/s 00:31 [----------------------------------------] 100%
+ lib32-mesa-git-26.1.0_devel.220255.d69...    35.6 MiB  1159 KiB/s 00:31 [----------------------------------------] 100%
+ Total (80/80)                               201.8 MiB  6.40 MiB/s 00:32 [----------------------------------------] 100%
+(80/80) checking keys in keyring                                         [----------------------------------------] 100%
+(80/80) checking package integrity                                       [----------------------------------------] 100%
+(80/80) loading package files                                            [----------------------------------------] 100%
+(80/80) checking for file conflicts                                      [----------------------------------------] 100%
 :: Running pre-transaction hooks...
 (1/2) Performing snapper pre snapshots for the following configurations...
-==> root: 14
+==> root: 32
 (2/2) Waiting for limine-snapper-sync to finish...
 :: Processing package changes...
-(1/1) installing plasma6-applets-panel-colorizer                               [---------------------------------------------] 100%
-Optional dependencies for plasma6-applets-panel-colorizer
-    spectacle: take preset preview support [installed]
+( 1/80) installing go                                                    [----------------------------------------] 100%
+( 2/80) installing bun                                                   [----------------------------------------] 100%
+( 3/80) installing zip                                                   [----------------------------------------] 100%
+( 4/80) installing lib32-glibc                                           [----------------------------------------] 100%
+( 5/80) installing lib32-gcc-libs                                        [----------------------------------------] 100%
+( 6/80) installing lib32-openssl                                         [----------------------------------------] 100%
+Optional dependencies for lib32-openssl
+    ca-certificates [installed]
+( 7/80) installing lib32-libunistring                                    [----------------------------------------] 100%
+( 8/80) installing lib32-libidn2                                         [----------------------------------------] 100%
+( 9/80) installing lib32-xz                                              [----------------------------------------] 100%
+(10/80) installing lib32-zstd                                            [----------------------------------------] 100%
+(11/80) installing lib32-brotli                                          [----------------------------------------] 100%
+(12/80) installing lib32-libnghttp2                                      [----------------------------------------] 100%
+(13/80) installing lib32-libpsl                                          [----------------------------------------] 100%
+(14/80) installing lsof                                                  [----------------------------------------] 100%
+(15/80) installing zenity                                                [----------------------------------------] 100%
+(16/80) installing steam-devices                                         [----------------------------------------] 100%
+(17/80) installing lib32-alsa-lib                                        [----------------------------------------] 100%
+(18/80) installing lib32-alsa-plugins                                    [----------------------------------------] 100%
+Optional dependencies for lib32-alsa-plugins
+    lib32-dbus: for maemo plugin [pending]
+    lib32-jack: for pcm_jack plugin
+    lib32-libavtp: for pcm_aaf plugin
+    lib32-libsamplerate: for rate_samplerate plugin
+    lib32-libpulse: for conf_pulse, ctl_pulse and pcm_pulse plugins
+    lib32-speexdsp: for pcm_speex and rate_speexrate plugins
+(19/80) installing lib32-expat                                           [----------------------------------------] 100%
+(20/80) installing lib32-bzip2                                           [----------------------------------------] 100%
+(21/80) installing lib32-zlib                                            [----------------------------------------] 100%
+(22/80) installing lib32-libpng                                          [----------------------------------------] 100%
+(23/80) installing lib32-freetype2                                       [----------------------------------------] 100%
+Optional dependencies for lib32-freetype2
+    lib32-harfbuzz: Improved autohinting
+(24/80) installing lib32-fontconfig                                      [----------------------------------------] 100%
+Rebuilding 32-bit fontconfig cache...
+(25/80) installing lib32-libxdmcp                                        [----------------------------------------] 100%
+(26/80) installing lib32-libxau                                          [----------------------------------------] 100%
+(27/80) installing lib32-libxcb                                          [----------------------------------------] 100%
+(28/80) installing lib32-libx11                                          [----------------------------------------] 100%
+(29/80) installing lib32-libxext                                         [----------------------------------------] 100%
+(30/80) installing lib32-libpciaccess                                    [----------------------------------------] 100%
+(31/80) installing lib32-libdrm                                          [----------------------------------------] 100%
+(32/80) installing lib32-e2fsprogs                                       [----------------------------------------] 100%
+(33/80) installing lib32-libxcrypt                                       [----------------------------------------] 100%
+(34/80) installing lib32-libldap                                         [----------------------------------------] 100%
+(35/80) installing lib32-krb5                                            [----------------------------------------] 100%
+(36/80) installing lib32-keyutils                                        [----------------------------------------] 100%
+(37/80) installing lib32-libnghttp3                                      [----------------------------------------] 100%
+(38/80) installing lib32-gmp                                             [----------------------------------------] 100%
+(39/80) installing lib32-nettle                                          [----------------------------------------] 100%
+(40/80) installing lib32-libffi                                          [----------------------------------------] 100%
+(41/80) installing lib32-libtasn1                                        [----------------------------------------] 100%
+(42/80) installing lib32-p11-kit                                         [----------------------------------------] 100%
+(43/80) installing lib32-gnutls                                          [----------------------------------------] 100%
+(44/80) installing lib32-libngtcp2                                       [----------------------------------------] 100%
+(45/80) installing lib32-libssh2                                         [----------------------------------------] 100%
+(46/80) installing lib32-curl                                            [----------------------------------------] 100%
+(47/80) installing lib32-json-c                                          [----------------------------------------] 100%
+(48/80) installing lib32-libelf                                          [----------------------------------------] 100%
+(49/80) installing lib32-libxshmfence                                    [----------------------------------------] 100%
+(50/80) installing lib32-libxxf86vm                                      [----------------------------------------] 100%
+(51/80) installing lib32-ncurses                                         [----------------------------------------] 100%
+(52/80) installing lib32-icu                                             [----------------------------------------] 100%
+(53/80) installing lib32-libxml2                                         [----------------------------------------] 100%
+(54/80) installing lib32-llvm-libs                                       [----------------------------------------] 100%
+(55/80) installing lib32-lm_sensors                                      [----------------------------------------] 100%
+(56/80) installing lib32-spirv-tools                                     [----------------------------------------] 100%
+(57/80) installing lib32-wayland                                         [----------------------------------------] 100%
+(58/80) installing lib32-libxfixes                                       [----------------------------------------] 100%
+(59/80) installing lib32-libxdamage                                      [----------------------------------------] 100%
+(60/80) installing lib32-mesa-git                                        [----------------------------------------] 100%
+Optional dependencies for lib32-mesa-git
+    opengl-man-pages: for the OpenGL API man pages
+(61/80) installing lib32-libglvnd                                        [----------------------------------------] 100%
+(62/80) installing lib32-libgpg-error                                    [----------------------------------------] 100%
+(63/80) installing lib32-pcre2                                           [----------------------------------------] 100%
+(64/80) installing lib32-util-linux                                      [----------------------------------------] 100%
+(65/80) installing lib32-glib2                                           [----------------------------------------] 100%
+(66/80) installing lib32-nspr                                            [----------------------------------------] 100%
+(67/80) installing lib32-sqlite                                          [----------------------------------------] 100%
+(68/80) installing lib32-nss                                             [----------------------------------------] 100%
+(69/80) installing lib32-libgcrypt                                       [----------------------------------------] 100%
+(70/80) installing lib32-systemd                                         [----------------------------------------] 100%
+(71/80) installing lib32-libnm                                           [----------------------------------------] 100%
+(72/80) installing lib32-libva                                           [----------------------------------------] 100%
+Optional dependencies for lib32-libva
+    lib32-libva-intel-driver: backend for Intel GPUs (<= Haswell)
+    lib32-libva-mesa-driver: backend for AMD and NVIDIA GPUs [installed]
+(73/80) installing lib32-libxcrypt-compat                                [----------------------------------------] 100%
+(74/80) installing lib32-libxinerama                                     [----------------------------------------] 100%
+(75/80) installing lib32-libxss                                          [----------------------------------------] 100%
+(76/80) installing lib32-libpipewire                                     [----------------------------------------] 100%
+(77/80) installing lib32-dbus                                            [----------------------------------------] 100%
+(78/80) installing lib32-pipewire                                        [----------------------------------------] 100%
+Optional dependencies for lib32-pipewire
+    lib32-pipewire-jack: JACK support
+    lib32-pipewire-v4l2: V4L2 interceptor
+(79/80) installing lib32-vulkan-icd-loader                               [----------------------------------------] 100%
+Optional dependencies for lib32-vulkan-icd-loader
+    lib32-vulkan-driver: packaged vulkan driver [installed]
+(80/80) installing steam                                                 [----------------------------------------] 100%
+Optional dependencies for steam
+    polkit: to setup SteamVR without root access [installed]
+    xdg-desktop-portal-impl: file & folder picker [installed]
+    xorg-fonts-misc: for non-latin locales
 :: Running post-transaction hooks...
-(1/2) Arming ConditionNeedsUpdate...
-(2/2) Performing snapper post snapshots for the following configurations...
-==> root: 15
-==> Making package: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:09 PM CDT)
+(1/5) Reloading device manager configuration...
+(2/5) Arming ConditionNeedsUpdate...
+(3/5) Updating icon theme caches...
+(4/5) Updating the desktop file MIME type cache...
+(5/5) Performing snapper post snapshots for the following configurations...
+==> root: 33
+fetching devel info...
+==> Making package: spicetify-cli-git 2.16.1.r1.gd5cc68f-1 (Sat 28 Mar 2026 04:56:43 PM CDT)
 ==> Retrieving sources...
-  -> Downloading kwin-effects-better-blur-dx-2.3.0.tar.gz...
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-100  57524   0  57524   0      0  61085      0                              0
+  -> Cloning spicetify-cli git repo...
+Cloning into bare repository '/home/ab/.cache/paru/clone/spicetify-cli-git/spicetify-cli'...
+remote: Enumerating objects: 18681, done.
+remote: Counting objects: 100% (396/396), done.
+remote: Compressing objects: 100% (174/174), done.
+remote: Total 18681 (delta 308), reused 265 (delta 218), pack-reused 18285 (from 4)
+Receiving objects: 100% (18681/18681), 31.56 MiB | 5.22 MiB/s, done.
+Resolving deltas: 100% (11665/11665), done.
 ==> Validating source files with sha256sums...
-    kwin-effects-better-blur-dx-2.3.0.tar.gz ... Passed
-==> Making package: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:10 PM CDT)
+    spicetify-cli ... Skipped
+==> Making package: spicetify-cli-git 2.16.1.r1.gd5cc68f-1 (Sat 28 Mar 2026 04:56:51 PM CDT)
 ==> Checking runtime dependencies...
 ==> Checking buildtime dependencies...
 ==> Retrieving sources...
-  -> Found kwin-effects-better-blur-dx-2.3.0.tar.gz
+  -> Updating spicetify-cli git repo...
 ==> Validating source files with sha256sums...
-    kwin-effects-better-blur-dx-2.3.0.tar.gz ... Passed
+    spicetify-cli ... Skipped
 ==> Removing existing $srcdir/ directory...
 ==> Extracting sources...
-  -> Extracting kwin-effects-better-blur-dx-2.3.0.tar.gz with bsdtar
+  -> Creating working copy of spicetify-cli git repo...
+Cloning into 'spicetify-cli'...
+done.
+==> Starting prepare()...
+==> Starting pkgver()...
+==> Updated version: spicetify-cli-git 2.43.1.r3.g1c779736-1
 ==> Sources are ready.
-kwin-effects-better-blur-dx-2.3.0-1: parsing pkg list...
-==> Making package: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:11 PM CDT)
+spicetify-cli-git-2.16.1.r1.gd5cc68f-1: parsing pkg list...
+==> Making package: spicetify-cli-git 2.43.1.r3.g1c779736-1 (Sat 28 Mar 2026 04:56:53 PM CDT)
 ==> Checking runtime dependencies...
 ==> Checking buildtime dependencies...
 ==> WARNING: Using existing $srcdir/ tree
+==> Starting pkgver()...
 ==> Starting build()...
--- The C compiler identification is GNU 15.2.1
--- The CXX compiler identification is GNU 15.2.1
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Installing in the same prefix as Qt, adopting their path scheme.
--- Looking for __GLIBC__
--- Looking for __GLIBC__ - found
--- Performing Test _OFFT_IS_64BIT
--- Performing Test _OFFT_IS_64BIT - Success
--- Performing Test HAVE_DATE_TIME
--- Performing Test HAVE_DATE_TIME - Success
--- Performing Test HAVE_STDATOMIC
--- Performing Test HAVE_STDATOMIC - Success
--- Found WrapAtomic: TRUE
--- Found OpenGL: /usr/lib/libOpenGL.so
--- Found WrapOpenGL: TRUE
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Found KF6ColorScheme: /usr/lib/cmake/KF6ColorScheme/KF6ColorSchemeConfig.cmake (found version "6.24.0")
--- Found KF6Config: /usr/lib/cmake/KF6Config/KF6ConfigConfig.cmake (found version "6.24.0")
--- Found KF6ConfigWidgets: /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsConfig.cmake (found version "6.24.0")
--- Found KF6CoreAddons: /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsConfig.cmake (found version "6.24.0")
--- Found Gettext: /usr/bin/msgmerge (found version "1.0")
--- Found KF6I18n: /usr/lib/cmake/KF6I18n/KF6I18nConfig.cmake (found version "6.24.0")
--- Found KF6KCMUtils: /usr/lib/cmake/KF6KCMUtils/KF6KCMUtilsConfig.cmake (found version "6.24.0")
--- Found KF6WidgetsAddons: /usr/lib/cmake/KF6WidgetsAddons/KF6WidgetsAddonsConfig.cmake (found version "6.24.0")
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Found X11: /usr/include
--- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
--- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
--- Looking for gethostbyname
--- Looking for gethostbyname - found
--- Looking for connect
--- Looking for connect - found
--- Looking for remove
--- Looking for remove - found
--- Looking for shmat
--- Looking for shmat - found
--- Looking for IceConnectionNumber in ICE
--- Looking for IceConnectionNumber in ICE - found
--- Found KF6WindowSystem: /usr/lib/cmake/KF6WindowSystem/KF6WindowSystemConfig.cmake (found version "6.24.0")
--- Found KF6: success (found suitable version "6.24.0", minimum required is "5.240.0") found components: ColorScheme Config ConfigWidgets CoreAddons I18n KCMUtils WidgetsAddons WindowSystem
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Found epoxy: /usr/lib/libepoxy.so (found version "1.5.10")
--- Found XCB_XCB: /usr/lib/libxcb.so (found version "1.17.0")
--- Found XCB: /usr/lib/libxcb.so (found version "1.17.0") found components: XCB
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Found Wayland_Server: /usr/lib/libwayland-server.so (found version "1.24.0")
--- Found Wayland: /usr/lib/libwayland-server.so (found version "1.24.0") found components: Server
--- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
--- Found Libdrm: /usr/lib/libdrm.so (found version "2.4.131")
--- The following OPTIONAL packages have been found:
-
- * OpenGL
- * Qt6Network (required version >= 6.6.0)
- * Qt6OpenGL (required version >= 6.6.0)
- * Qt6WidgetsTools (required version >= 6.11.0)
- * Qt6Widgets (required version >= 6.8.0)
- * Qt6QuickTools (required version >= 6.11.0)
- * Qt6DBusTools (required version >= 6.11.0)
- * Qt6QmlTools (required version >= 6.11.0)
- * Qt6CoreTools (required version >= 6.11.0)
- * Qt6GuiTools (required version >= 6.11.0)
- * PkgConfig
-
--- The following REQUIRED packages have been found:
-
- * Qt6 (required version >= 6.6.0)
- * KF6ColorScheme (required version >= 6.24.0)
- * Gettext
- * KF6I18n (required version >= 5.240.0)
- * KF6ConfigWidgets (required version >= 6.24.0)
- * KF6KCMUtils (required version >= 5.240.0)
- * KF6WidgetsAddons (required version >= 5.240.0)
- * KF6 (required version >= 5.240.0)
- * KDecoration3
- * XCB, X protocol C-language Binding, <https://xcb.freedesktop.org/>
- * ECM (required version >= 6.22.0)
- * Qt6Quick (required version >= 6.10.0)
- * Qt6DBus (required version >= 6.8.0)
- * Qt6Qml (required version >= 6.8.0)
- * Qt6Core (required version >= 6.8.0)
- * Qt6Gui (required version >= 6.8.0)
- * X11
- * epoxy
- * KWin
- * KWinDBusInterface
-
--- The following OPTIONAL packages have not been found:
-
- * WrapVulkanHeaders
-
--- Configuring done (1.6s)
--- Generating done (0.0s)
--- Build files have been written to: /home/ab/.cache/paru/clone/kwin-effects-better-blur-dx/src/build
-[  0%] Built target better_blur_dx_autogen_timestamp_deps
-[  0%] Built target kwin_better_blur_dx_config_autogen_timestamp_deps
-[  3%] Automatic MOC for target better_blur_dx
-[  6%] Automatic MOC for target kwin_better_blur_dx_config
-AutoMoc warning
----------------
-"SRC:/src/main.cpp"
-includes the moc file "main.moc", but does not contain a Q_OBJECT, Q_GADGET, Q_NAMESPACE, Q_NAMESPACE_EXPORT, Q_GADGET_EXPORT, Q_ENUM_NS, K_PLUGIN_FACTORY, K_PLUGIN_CLASS, K_PLUGIN_FACTORY_WITH_JSON or K_PLUGIN_CLASS_WITH_JSON macro.
-
-[  6%] Built target kwin_better_blur_dx_config_autogen
-[ 17%] Generating blurconfig.h, blurconfig.cpp
-[ 17%] Generating ui_blur_config.h
-[ 17%] Generating kwineffects_interface.cpp, kwineffects_interface.h
-[ 20%] Automatic RCC for blur_config.qrc
-[ 24%] Generating moc_kwineffects_interface.cpp
-[ 24%] Built target better_blur_dx_autogen
-[ 27%] Generating blurconfig.h, blurconfig.cpp
-[ 31%] Automatic RCC for blur.qrc
-[ 34%] Building CXX object src/CMakeFiles/better_blur_dx.dir/rounded_corners_pass.cpp.o
-[ 37%] Building CXX object src/CMakeFiles/better_blur_dx.dir/window.cpp.o
-[ 41%] Building CXX object src/CMakeFiles/better_blur_dx.dir/better_blur_dx_autogen/mocs_compilation.cpp.o
-[ 44%] Building CXX object src/CMakeFiles/better_blur_dx.dir/blur_extensions.cpp.o
-[ 48%] Building CXX object src/CMakeFiles/better_blur_dx.dir/blurconfig.cpp.o
-[ 51%] Building CXX object src/CMakeFiles/better_blur_dx.dir/blur.cpp.o
-[ 55%] Building CXX object src/CMakeFiles/better_blur_dx.dir/main.cpp.o
-[ 58%] Building CXX object src/CMakeFiles/better_blur_dx.dir/refraction_pass.cpp.o
-[ 62%] Building CXX object src/CMakeFiles/better_blur_dx.dir/settings.cpp.o
-[ 65%] Building CXX object src/CMakeFiles/better_blur_dx.dir/better_blur_dx_autogen/EWIEGA46WW/qrc_blur.cpp.o
-[ 68%] Building CXX object src/CMakeFiles/better_blur_dx.dir/window_manager.cpp.o
-[ 79%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/blur_config.cpp.o
-[ 79%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/kwin_better_blur_dx_config_autogen/mocs_compilation.cpp.o
-[ 79%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/blurconfig.cpp.o
-[ 82%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/kwineffects_interface.cpp.o
-[ 86%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/kwin_better_blur_dx_config_autogen/EWIEGA46WW/qrc_blur_config.cpp.o
-[ 89%] Linking CXX shared module kwin_better_blur_dx_config.so
-[ 93%] Linking CXX shared module better_blur_dx.so
-[ 96%] Built target kwin_better_blur_dx_config
-[100%] Built target better_blur_dx
+go: downloading github.com/mattn/go-colorable v0.1.14
+go: downloading github.com/pterm/pterm v0.12.82
+go: downloading github.com/go-ini/ini v1.67.0
+go: downloading golang.org/x/net v0.49.0
+go: downloading github.com/mattn/go-isatty v0.0.20
+go: downloading golang.org/x/text v0.33.0
+go: downloading atomicgo.dev/keyboard v0.2.9
+go: downloading atomicgo.dev/schedule v0.1.0
+go: downloading github.com/lithammer/fuzzysearch v1.1.8
+go: downloading github.com/gookit/color v1.5.4
+go: downloading golang.org/x/term v0.39.0
+go: downloading atomicgo.dev/cursor v0.2.0
+go: downloading github.com/mattn/go-runewidth v0.0.16
+go: downloading golang.org/x/sys v0.40.0
+go: downloading github.com/rivo/uniseg v0.4.7
+go: downloading github.com/containerd/console v1.0.5
+go: downloading github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e
 ==> Entering fakeroot environment...
 ==> Starting package()...
--- Install configuration: "None"
--- Installing: /home/ab/.cache/paru/clone/kwin-effects-better-blur-dx/pkg/kwin-effects-better-blur-dx/usr/lib/qt6/plugins/kwin/effects/configs/kwin_better_blur_dx_config.so
--- Installing: /home/ab/.cache/paru/clone/kwin-effects-better-blur-dx/pkg/kwin-effects-better-blur-dx/usr/lib/qt6/plugins/kwin/effects/plugins/better_blur_dx.so
 ==> Tidying install...
   -> Removing libtool files...
   -> Removing static library files...
@@ -467,65 +541,107 @@ includes the moc file "main.moc", but does not contain a Q_OBJECT, Q_GADGET, Q_N
   -> Stripping unneeded symbols from binaries and libraries...
   -> Compressing man and info pages...
 ==> Checking for packaging issues...
-==> Creating package "kwin-effects-better-blur-dx"...
+==> WARNING: Package contains reference to $srcdir
+usr/share/spicetify-cli/spicetify
+==> Creating package "spicetify-cli-git"...
   -> Generating .PKGINFO file...
   -> Generating .BUILDINFO file...
-  -> Adding install file...
   -> Generating .MTREE file...
   -> Compressing package...
 ==> Leaving fakeroot environment.
-==> Finished making: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:19 PM CDT)
+==> Finished making: spicetify-cli-git 2.43.1.r3.g1c779736-1 (Sat 28 Mar 2026 04:57:03 PM CDT)
 ==> Cleaning up...
 loading packages...
 resolving dependencies...
 looking for conflicting packages...
 
-Package (1)                  New Version  Net Change
+Package (1)        New Version            Net Change
 
-kwin-effects-better-blur-dx  2.3.0-1        0.28 MiB
+spicetify-cli-git  2.43.1.r3.g1c779736-1    9.65 MiB
 
-Total Installed Size:  0.28 MiB
+Total Installed Size:  9.65 MiB
 
-:: Proceed with installation? [Y/n] 
-(1/1) checking keys in keyring                                                 [---------------------------------------------] 100%
-(1/1) checking package integrity                                               [---------------------------------------------] 100%
-(1/1) loading package files                                                    [---------------------------------------------] 100%
-(1/1) checking for file conflicts                                              [---------------------------------------------] 100%
+:: Proceed with installation? [Y/n]
+(1/1) checking keys in keyring                                           [----------------------------------------] 100%
+(1/1) checking package integrity                                         [----------------------------------------] 100%
+(1/1) loading package files                                              [----------------------------------------] 100%
+(1/1) checking for file conflicts                                        [----------------------------------------] 100%
 :: Running pre-transaction hooks...
 (1/2) Performing snapper pre snapshots for the following configurations...
-==> root: 16
+==> root: 34
 (2/2) Waiting for limine-snapper-sync to finish...
 :: Processing package changes...
-(1/1) installing kwin-effects-better-blur-dx                                   [---------------------------------------------] 100%
-==> WARNING: To use this effect disable the default Blur effect and any other forks of the blur effect as well (such as the one provided by LightlyShaders). Then enable the Better Blur effect. You can do this under Desktop Effects in System Settings
-==> NOTE: With Wobbly Windows enabled, the blur effect may be temporarily skipped during window wobbling or the square blur region may bleed outside the deformed window shape. This is expected behavior and the blur will return once the wobbling stops.
-
-
+(1/1) installing spicetify-cli-git                                       [----------------------------------------] 100%
 :: Running post-transaction hooks...
 (1/2) Arming ConditionNeedsUpdate...
 (2/2) Performing snapper post snapshots for the following configurations...
-==> root: 17
-error: packages failed to build: spicetify-cli-2.42.15-beta.1-1  millennium-git-v3.0.0.beta.10.r4.geeca662a-1
-
-Build and install kwin-effects-glass-local from ~/pkgbuilds? [y/N] y
-==> Making package: kwin-effects-glass-local 6.6.2.1-1 (Sat 28 Mar 2026 03:30:33 PM CDT)                                           
+==> root: 35
+==> Making package: lib32-python311-bin 3.11.8-6 (Sat 28 Mar 2026 04:57:08 PM CDT)
+==> Retrieving sources...
+  -> Found python-3.11.8-32-bit.tar.gz
+==> Validating source files with sha256sums...
+    python-3.11.8-32-bit.tar.gz ... Passed
+==> Making package: lib32-python311-bin 3.11.8-6 (Sat 28 Mar 2026 04:57:08 PM CDT)
 ==> Checking runtime dependencies...
 ==> Checking buildtime dependencies...
 ==> Retrieving sources...
-  -> Cloning kwin-effects-glass git repo...
-Cloning into bare repository '/home/ab/pkgbuilds/kwin-effects-glass/kwin-effects-glass'...
-remote: Enumerating objects: 2292, done.
-remote: Counting objects: 100% (927/927), done.
-remote: Compressing objects: 100% (243/243), done.
-remote: Total 2292 (delta 820), reused 697 (delta 684), pack-reused 1365 (from 4)
-Receiving objects: 100% (2292/2292), 9.92 MiB | 2.00 MiB/s, done.
-Resolving deltas: 100% (1589/1589), done.
+  -> Found python-3.11.8-32-bit.tar.gz
+==> Validating source files with sha256sums...
+    python-3.11.8-32-bit.tar.gz ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting python-3.11.8-32-bit.tar.gz with bsdtar
+==> Sources are ready.
+lib32-python311-bin-3.11.8-6: parsing pkg list...
+:: lib32-python311-bin-3.11.8-6 is up to date -- skipping build
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)          New Version  Net Change
+
+lib32-python311-bin  3.11.8-6      77.18 MiB
+
+Total Installed Size:  77.18 MiB
+
+:: Proceed with installation? [Y/n]
+(1/1) checking keys in keyring                                           [----------------------------------------] 100%
+(1/1) checking package integrity                                         [----------------------------------------] 100%
+(1/1) loading package files                                              [----------------------------------------] 100%
+(1/1) checking for file conflicts                                        [----------------------------------------] 100%
+:: Running pre-transaction hooks...
+(1/2) Performing snapper pre snapshots for the following configurations...
+==> root: 36
+(2/2) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+(1/1) installing lib32-python311-bin                                     [----------------------------------------] 100%
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Performing snapper post snapshots for the following configurations...
+==> root: 37
+==> Making package: millennium-git v3.0.0.beta.10.r4.geeca662a-1 (Sat 28 Mar 2026 04:57:14 PM CDT)
+==> Retrieving sources...
+  -> Updating Millennium git repo...
+  -> Found 688.patch
+==> Validating source files with sha256sums...
+    Millennium ... Skipped
+    688.patch ... FAILED
+==> ERROR: One or more files did not pass the validity check!
+error: failed to download sources for 'millennium-git-v3.0.0.beta.10.r4.geeca662a-1':
+error: packages failed to build: millennium-git-v3.0.0.beta.10.r4.geeca662a-1
+
+Build and install kwin-effects-glass-local from ~/pkgbuilds? [y/N] y
+==> Making package: kwin-effects-glass-local 6.6.2.1-1 (Sat 28 Mar 2026 04:57:25 PM CDT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Updating kwin-effects-glass git repo...
 ==> Validating source files with sha256sums...
     kwin-effects-glass ... Skipped
 ==> Extracting sources...
   -> Creating working copy of kwin-effects-glass git repo...
-Cloning into 'kwin-effects-glass'...
-done.
+Previous HEAD position was 4b7777a rewrite prePaintWindow to remove the need for several hacks
+Switched to a new branch 'makepkg'
 ==> Starting prepare()...
 Note: switching to '6.6.2-3'.
 
@@ -547,229 +663,38 @@ Turn off this advice by setting config variable advice.detachedHead to false
 HEAD is now at 4b7777a rewrite prePaintWindow to remove the need for several hacks
 ==> Starting pkgver()...
 ==> Updated version: kwin-effects-glass-local 6.6.2.3-1
-==> Starting build()...
--- The C compiler identification is GNU 15.2.1
--- The CXX compiler identification is GNU 15.2.1
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Installing in the same prefix as Qt, adopting their path scheme.
-fatal: HEAD does not point to a branch
--- Looking for __GLIBC__
--- Looking for __GLIBC__ - found
--- Performing Test _OFFT_IS_64BIT
--- Performing Test _OFFT_IS_64BIT - Success
--- Performing Test HAVE_DATE_TIME
--- Performing Test HAVE_DATE_TIME - Success
--- Found OpenGL: /usr/lib/libOpenGL.so
--- Found WrapOpenGL: TRUE
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Performing Test HAVE_STDATOMIC
--- Performing Test HAVE_STDATOMIC - Success
--- Found WrapAtomic: TRUE
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Found KF6Config: /usr/lib/cmake/KF6Config/KF6ConfigConfig.cmake (found version "6.24.0")
--- Found KF6ConfigWidgets: /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsConfig.cmake (found version "6.24.0")
--- Found KF6CoreAddons: /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsConfig.cmake (found version "6.24.0")
--- Found KF6Crash: /usr/lib/cmake/KF6Crash/KF6CrashConfig.cmake (found version "6.24.0")
--- Found KF6GlobalAccel: /usr/lib/cmake/KF6GlobalAccel/KF6GlobalAccelConfig.cmake (found version "6.24.0")
--- Found Gettext: /usr/bin/msgmerge (found version "1.0")
--- Found KF6I18n: /usr/lib/cmake/KF6I18n/KF6I18nConfig.cmake (found version "6.24.0")
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Found X11: /usr/include
--- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
--- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
--- Looking for gethostbyname
--- Looking for gethostbyname - found
--- Looking for connect
--- Looking for connect - found
--- Looking for remove
--- Looking for remove - found
--- Looking for shmat
--- Looking for shmat - found
--- Looking for IceConnectionNumber in ICE
--- Looking for IceConnectionNumber in ICE - found
--- Found KF6KIO: /usr/lib/cmake/KF6KIO/KF6KIOConfig.cmake (found version "6.24.0")
--- Found KF6Service: /usr/lib/cmake/KF6Service/KF6ServiceConfig.cmake (found version "6.24.0")
--- Found KF6Notifications: /usr/lib/cmake/KF6Notifications/KF6NotificationsConfig.cmake (found version "6.24.0")
--- Found KF6WidgetsAddons: /usr/lib/cmake/KF6WidgetsAddons/KF6WidgetsAddonsConfig.cmake (found version "6.24.0")
--- Found KF6WindowSystem: /usr/lib/cmake/KF6WindowSystem/KF6WindowSystemConfig.cmake (found version "6.24.0")
--- Found KF6GuiAddons: /usr/lib/cmake/KF6GuiAddons/KF6GuiAddonsConfig.cmake (found version "6.24.0")
--- Found KF6KCMUtils: /usr/lib/cmake/KF6KCMUtils/KF6KCMUtilsConfig.cmake (found version "6.24.0")
--- Found KF6: success (found suitable version "6.24.0", minimum required is "5.240.0") found components: Config ConfigWidgets CoreAddons Crash GlobalAccel I18n KIO Service Notifications Service WidgetsAddons WindowSystem GuiAddons KCMUtils
--- Found epoxy: /usr/lib/libepoxy.so (found version "1.5.10")
--- Found XCB_XCB: /usr/lib/libxcb.so (found version "1.17.0")
--- Found XCB: /usr/lib/libxcb.so (found version "1.17.0") found components: XCB
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Found Wayland_Server: /usr/lib/libwayland-server.so (found version "1.24.0")
--- Found Wayland: /usr/lib/libwayland-server.so (found version "1.24.0") found components: Server
--- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
--- Found Libdrm: /usr/lib/libdrm.so (found version "2.4.131")
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- The following OPTIONAL packages have been found:
-
- * OpenGL
- * Qt6UiTools (required version >= 6.6.0)
- * Qt6DBusTools (required version >= 6.11.0)
- * Qt6WidgetsTools (required version >= 6.11.0)
- * Qt6Xml (required version >= 6.8.0)
- * Qt6Network (required version >= 6.8.0)
- * Qt6QmlTools (required version >= 6.11.0)
- * Qt6QuickTools (required version >= 6.11.0)
- * PkgConfig
- * KWin
- * Qt6CoreTools (required version >= 6.11.0)
- * Qt6GuiTools (required version >= 6.11.0)
-
--- The following REQUIRED packages have been found:
-
- * Qt6 (required version >= 6.6.0)
- * KF6Crash (required version >= 5.240.0)
- * KF6GlobalAccel (required version >= 5.240.0)
- * Gettext
- * KF6I18n (required version >= 5.240.0)
- * KF6KIO (required version >= 5.240.0)
- * KF6Notifications (required version >= 5.240.0)
- * KF6Service (required version >= 5.240.0)
- * KF6WidgetsAddons (required version >= 5.240.0)
- * KF6GuiAddons (required version >= 5.240.0)
- * KF6ConfigWidgets (required version >= 6.24.0)
- * KF6KCMUtils (required version >= 5.240.0)
- * KF6 (required version >= 5.240.0)
- * X11
- * XCB, X protocol C-language Binding, <https://xcb.freedesktop.org/>
- * ECM (required version >= 6.22.0)
- * KF6Config (required version >= 6.22.0)
- * KF6CoreAddons (required version >= 6.22.0)
- * KF6WindowSystem (required version >= 6.22.0)
- * epoxy
- * KWinDBusInterface
- * Qt6Gui (required version >= 6.10.0)
- * KDecoration3
-
--- The following OPTIONAL packages have not been found:
-
- * WrapVulkanHeaders
-
--- Configuring done (1.6s)
--- Generating done (0.0s)
--- Build files have been written to: /home/ab/pkgbuilds/kwin-effects-glass/src/build
-[  0%] Built target kwin_glass_config_autogen_timestamp_deps
-[  0%] Built target glass_autogen_timestamp_deps
-[  4%] Automatic MOC for target glass
-[  8%] Automatic MOC for target kwin_glass_config
-AutoMoc warning
----------------
-"SRC:/src/main.cpp"
-includes the moc file "main.moc", but does not contain a Q_OBJECT, Q_GADGET, Q_NAMESPACE, Q_NAMESPACE_EXPORT, Q_GADGET_EXPORT, Q_ENUM_NS, K_PLUGIN_FACTORY, K_PLUGIN_CLASS, K_PLUGIN_FACTORY_WITH_JSON or K_PLUGIN_CLASS_WITH_JSON macro.
-
-[  8%] Built target kwin_glass_config_autogen
-[ 26%] Generating ui_blur_config.h
-[ 26%] Generating kwineffects_interface.cpp, kwineffects_interface.h
-[ 21%] Generating blurconfig.h, blurconfig.cpp
-[ 26%] Automatic RCC for blur_config.qrc
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label1'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label2'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget1'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget2'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget3'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout1'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer1'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout2'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer2'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout3'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer3'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout4'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer4'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'verticalSpacer' (QSpacerItem) is already in use, defaulting to 'verticalSpacer1'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget4'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label3'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label4'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label5'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label6'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label7'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget5'.
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget6'.
-[ 26%] Built target glass_autogen
-[ 30%] Generating moc_kwineffects_interface.cpp
-[ 34%] Generating blurconfig.h, blurconfig.cpp
-[ 39%] Automatic RCC for blur.qrc
-[ 43%] Building CXX object src/CMakeFiles/glass.dir/main.cpp.o
-[ 52%] Building CXX object src/CMakeFiles/glass.dir/glass_autogen/mocs_compilation.cpp.o
-[ 52%] Building CXX object src/CMakeFiles/glass.dir/blur.cpp.o
-[ 56%] Building CXX object src/CMakeFiles/glass.dir/blurconfig.cpp.o
-[ 60%] Building CXX object src/CMakeFiles/glass.dir/glass_autogen/EWIEGA46WW/qrc_blur.cpp.o
-[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/blurconfig.cpp.o
-[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/kwin_glass_config_autogen/EWIEGA46WW/qrc_blur_config.cpp.o
-[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/blur_config.cpp.o
-[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/kwin_glass_config_autogen/mocs_compilation.cpp.o
-[ 82%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/kwineffects_interface.cpp.o
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp: In member function ‘virtual void KWin::BlurEffect::reconfigure(KWin::Effect::ReconfigureFlags)’:
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp:288:47: warning: unused parameter ‘flags’ [-Wunused-parameter]
-  288 | void BlurEffect::reconfigure(ReconfigureFlags flags)
-      |                              ~~~~~~~~~~~~~~~~~^~~~~
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp: In member function ‘void KWin::BlurEffect::blur(const KWin::RenderTarget&, const KWin::RenderViewport&, KWin::EffectWindow*, int, const KWin::Region&, KWin::WindowPaintData&)’:
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp:853:28: warning: loop variable ‘rect’ of type ‘const QRectF&’ binds to a temporary constructed from type ‘KWin::RectF’ [-Wrange-loop-construct]
-  853 |         for (const QRectF &rect : effectiveShape) {
-      |                            ^~~~
-/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp:853:28: note: use non-reference type ‘const QRectF’ to make the copy explicit or ‘const KWin::RectF&’ to prevent copying
-[ 86%] Linking CXX shared module kwin_glass_config.so
-[ 91%] Linking CXX shared module glass.so
-[ 95%] Built target kwin_glass_config
-[100%] Built target glass
-==> Entering fakeroot environment...
-==> Starting package()...
--- Install configuration: "Release"
--- Installing: /home/ab/pkgbuilds/kwin-effects-glass/pkg/kwin-effects-glass-local/usr/lib/qt6/plugins/kwin/effects/configs/kwin_glass_config.so
--- Installing: /home/ab/pkgbuilds/kwin-effects-glass/pkg/kwin-effects-glass-local/usr/lib/qt6/plugins/kwin/effects/plugins/glass.so
-==> Tidying install...
-  -> Removing libtool files...
-  -> Removing static library files...
-  -> Purging unwanted files...
-  -> Stripping unneeded symbols from binaries and libraries...
-  -> Compressing man and info pages...
-==> Checking for packaging issues...
-==> Creating package "kwin-effects-glass-local"...
-  -> Generating .PKGINFO file...
-  -> Generating .BUILDINFO file...
-  -> Generating .MTREE file...
-  -> Compressing package...
-==> Leaving fakeroot environment.
-==> Finished making: kwin-effects-glass-local 6.6.2.3-1 (Sat 28 Mar 2026 03:30:44 PM CDT)
+==> WARNING: A package has already been built, installing existing package...
 ==> Installing package kwin-effects-glass-local with pacman -U...
-[sudo] password for ab: 
+[sudo] password for ab:
 loading packages...
+warning: kwin-effects-glass-local-6.6.2.3-1 is up to date -- reinstalling
 resolving dependencies...
 looking for conflicting packages...
 
-Package (1)               New Version  Net Change
+Package (1)               Old Version  New Version  Net Change
 
-kwin-effects-glass-local  6.6.2.3-1      0.22 MiB
+kwin-effects-glass-local  6.6.2.3-1    6.6.2.3-1      0.00 MiB
 
 Total Installed Size:  0.22 MiB
+Net Upgrade Size:      0.00 MiB
 
 :: Proceed with installation? [Y/n] y
-(1/1) checking keys in keyring                                                 [---------------------------------------------] 100%
-(1/1) checking package integrity                                               [---------------------------------------------] 100%
-(1/1) loading package files                                                    [---------------------------------------------] 100%
-(1/1) checking for file conflicts                                              [---------------------------------------------] 100%
+(1/1) checking keys in keyring                                           [----------------------------------------] 100%
+(1/1) checking package integrity                                         [----------------------------------------] 100%
+(1/1) loading package files                                              [----------------------------------------] 100%
+(1/1) checking for file conflicts                                        [----------------------------------------] 100%
 :: Running pre-transaction hooks...
 (1/2) Performing snapper pre snapshots for the following configurations...
-==> root: 18
+==> root: 38
 (2/2) Waiting for limine-snapper-sync to finish...
 :: Processing package changes...
-(1/1) installing kwin-effects-glass-local                                      [---------------------------------------------] 100%
+(1/1) reinstalling kwin-effects-glass-local                              [----------------------------------------] 100%
 :: Running post-transaction hooks...
-(1/2) Arming ConditionNeedsUpdate...
-(2/2) Performing snapper post snapshots for the following configurations...
-==> root: 19
-
-┬ 3:30PM
-╰─ab@/home/ab/pkgbuilds/kwin-effects-glass⩺ 
+(1/3) Arming ConditionNeedsUpdate...
+(2/3) Checking which packages need to be rebuilt
+(3/3) Performing snapper post snapshots for the following configurations...
+==> root: 39
+┬ 4:57PM
+╰─ab@/home/ab/pkgbuilds/kwin-effects-glass⩺ cd
+┬ 4:57PM
+╰─ab@/home/ab⩺
