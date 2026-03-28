@@ -1,0 +1,111 @@
+    1) kwin-effects-better-blur-dx  2) kwin-effects-better-blur-dx-git  
+Enter a number (default=1): 1
+:: Calculating conflicts...
+:: Calculating inner conflicts...
+
+:: Inner conflicts found:
+    lib32-mesa: lib32-mesa-git (lib32-mesa)  lib32-mesa-git (lib32-libva-mesa-driver)  
+    lib32-mesa-git: lib32-mesa (lib32-libva-mesa-driver<1:24.2.7-1)  
+
+:: Conflicting packages will have to be confirmed manually
+:: marked out of date: spicetify-cli
+
+Repo (88)                             Old Version  New Version                        Make Only
+cachyos/lib32-mesa                                 2:26.0.3-2                         No
+cachyos-core-znver4/libxcrypt-compat               4.5.2-1.1                          No
+cachyos-extra-znver4/bun                           1.3.11-1.1                         Yes
+cachyos-extra-znver4/cmake                         4.3.1-1.1                          Yes
+cachyos-extra-znver4/cppdap                        1.58.0-3.1                         Yes
+cachyos-extra-znver4/lsof                          4.99.6-1.1                         No
+cachyos-extra-znver4/ninja                         1.13.2-3.1                         Yes
+cachyos-extra-znver4/rhash                         1.4.6-1.1                          Yes
+cachyos-extra-znver4/zenity                        4.2.2-1.1                          No
+cachyos-znver4/go                                  2:1.26.1-2                         Yes
+cachyos-znver4/lib32-gcc-libs                      15.2.1+r604+g0b99615a8aef-2        No
+cachyos-znver4/lib32-glibc                         2.43+r5+g856c426a7534-4            No
+cachyos-znver4/lib32-mesa-git                      26.1.0_devel.220255.d6958a5e432-1  No
+cachyos-znver4/lib32-zstd                          1.5.7-2                            No
+extra/extra-cmake-modules                          6.24.0-1                           Yes
+extra/python-dbus                                  1.4.0-2                            No
+extra/zip                                          3.0-11                             Yes
+multilib/lib32-alsa-lib                            1.2.15.3-1                         No
+multilib/lib32-alsa-plugins                        1.2.12-1                           No
+multilib/lib32-brotli                              1.1.0-1                            No
+multilib/lib32-bzip2                               1.0.8-4                            No
+multilib/lib32-curl                                8.19.0-1                           No
+multilib/lib32-dbus                                1.16.2-1                           No
+multilib/lib32-e2fsprogs                           1.47.4-1                           No
+multilib/lib32-expat                               2.7.5-1                            No
+multilib/lib32-fontconfig                          2:2.17.1-1                         No
+multilib/lib32-freetype2                           2.14.3-1                           No
+multilib/lib32-glib2                               2.86.4-1                           No
+multilib/lib32-gmp                                 6.3.0-2                            No
+multilib/lib32-gnutls                              3.8.12-1                           No
+multilib/lib32-icu                                 78.3-1                             No
+multilib/lib32-json-c                              0.18-2                             No
+multilib/lib32-keyutils                            1.6.3-2                            No
+multilib/lib32-krb5                                1.21.3-1                           No
+multilib/lib32-libdrm                              2.4.131-1                          No
+multilib/lib32-libelf                              0.194-1                            No
+multilib/lib32-libffi                              3.5.2-1                            No
+multilib/lib32-libgcrypt                           1.12.1-1                           No
+multilib/lib32-libglvnd                            1.7.0-1                            No
+multilib/lib32-libgpg-error                        1.59-1                             No
+multilib/lib32-libidn2                             2.3.8-1                            No
+multilib/lib32-libldap                             2.6.13-1                           No
+multilib/lib32-libnghttp2                          1.68.1-1                           No
+multilib/lib32-libnghttp3                          1.15.0-1                           No
+multilib/lib32-libngtcp2                           1.21.0-1                           No
+multilib/lib32-libnm                               1.56.0-1                           No
+multilib/lib32-libpciaccess                        0.19-1                             No
+multilib/lib32-libpipewire                         1:1.6.2-1                          No
+multilib/lib32-libpng                              1.6.56-1                           No
+multilib/lib32-libpsl                              0.21.5-1                           No
+multilib/lib32-libssh2                             1.11.1-1                           No
+multilib/lib32-libtasn1                            4.21.0-1                           No
+multilib/lib32-libunistring                        1.3-1                              No
+multilib/lib32-libva                               2.22.0-1                           No
+multilib/lib32-libx11                              1.8.13-1                           No
+multilib/lib32-libxau                              1.0.12-1                           No
+multilib/lib32-libxcb                              1.17.0-1                           No
+multilib/lib32-libxcrypt                           4.5.2-1                            No
+multilib/lib32-libxcrypt-compat                    4.5.2-1                            No
+multilib/lib32-libxdamage                          1.1.7-1                            No
+multilib/lib32-libxdmcp                            1.1.5-1                            No
+multilib/lib32-libxext                             1.3.7-1                            No
+multilib/lib32-libxfixes                           6.0.1-2                            No
+multilib/lib32-libxinerama                         1.1.6-1                            No
+multilib/lib32-libxml2                             2.15.2-1                           No
+multilib/lib32-libxshmfence                        1.3.3-1                            No
+multilib/lib32-libxss                              1.2.4-2                            No
+multilib/lib32-libxxf86vm                          1.1.5-2                            No
+multilib/lib32-llvm-libs                           1:22.1.1-1                         No
+multilib/lib32-lm_sensors                          1:3.6.2-2                          No
+multilib/lib32-ncurses                             6.6-2                              No
+multilib/lib32-nettle                              3.10.2-1                           No
+multilib/lib32-nspr                                4.38.2-1                           No
+multilib/lib32-nss                                 3.122-1                            No
+multilib/lib32-openssl                             1:3.6.1-1                          No
+multilib/lib32-p11-kit                             0.26.2-1                           No
+multilib/lib32-pcre2                               10.47-1                            No
+multilib/lib32-pipewire                            1:1.6.2-1                          No
+multilib/lib32-spirv-tools                         1:1.4.341.0-1                      No
+multilib/lib32-sqlite                              3.52.0-1                           No
+multilib/lib32-systemd                             260.1-1                            No
+multilib/lib32-util-linux                          2.41.3-1                           No
+multilib/lib32-vulkan-icd-loader                   1.4.341.0-1                        No
+multilib/lib32-wayland                             1.24.0-1                           No
+multilib/lib32-xz                                  5.8.2-1                            No
+multilib/lib32-zlib                                1.3.2-1                            No
+multilib/steam                                     1.0.0.85-5                         No
+multilib/steam-devices                             1.0.0.85-5                         No
+
+Aur (6)                               Old Version  New Version                        Make Only
+aur/spicetify-cli                                  2.42.15-beta.1-1                   No
+aur/lib32-python311-bin                            3.11.8-6                           No
+aur/millennium-git                                 v3.0.0.beta.10.r4.geeca662a-1      No
+aur/protonhax                                      1.0.5-4                            No
+aur/plasma6-applets-panel-colorizer                6.9.1-1                            No
+aur/kwin-effects-better-blur-dx                    2.3.0-1                            No
+
+:: Proceed to review? [Y/n]: 
