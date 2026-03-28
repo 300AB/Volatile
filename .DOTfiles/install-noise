@@ -1,0 +1,775 @@
+==> Entering fakeroot environment...
+==> Starting package()...
+-- Install configuration: ""
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/config
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/config/config.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/config/main.xml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/buymeacoffee.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/discord.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/error.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/github.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/githubsponsors.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/githubstar.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/icon.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/kde.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/kofi.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/liberapay.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/matrix.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/matrix_logo.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/patreon.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/icons/paypal.svg
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/CompactRepresentation.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusFallback.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusMethodCall.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusPrimary.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusServiceModel.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/DBusSignalMonitor.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/Enums.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/RunCommand.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/TasksModel.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/TrayIconReplacementsModel.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/enum.js
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/globals.js
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/statusNotifierItemIconRules.js
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/utils.js
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/code/version.js
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/CategoryDisabled.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorButton.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorEffect.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorPickerGradientList.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColorPickerList.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ColoredButton.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ConfiguringIndicator.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/CustomBackground.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/CustomBorder.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/DesktopView.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/DoubleSpinBoxCompat.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormBorder.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormColors.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormPadding.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormShadow.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormShape.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/FormWidgetSettings.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/GradientRoundedRectangle.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/Header.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ImageRoundedRectangle.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PanelElementHint.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PlasmoidIcon.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PopupView.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/PresetAutoLoadingHint.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/RectangularGrid.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/RepaintDebug.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/SettingImportExport.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/SupportMe.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/ValueMouseControl.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardBlacklist.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardConfig.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardHide.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardIslands.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardOverride.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetCardTextIconFixes.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetIslandsHint.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetOverrideHint.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetStateHint.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/components/WidgetTextIconFixHint.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configAppearance.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configBlacklistWidgets.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configGeneral.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configGlobalWidgetOverrides.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configHideWidgets.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configPresetAutoload.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configPresetWidgetOverrides.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configPresets.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configStockPanelSettings.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configSupportMe.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configTextIconFix.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configTrayIconsReplacer.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/configWidgetIslands.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/main.qml
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Color Lines
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Color Lines/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Color Lines/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Gray Lines
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Gray Lines/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black Gray Lines/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Black/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss Light
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss Light/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss Light/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Bliss/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets 2
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets 2/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets 2/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Blur Widgets/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Carbon
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Carbon/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Carbon/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/ChromeOS
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/ChromeOS/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/ChromeOS/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Default
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Default/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Default/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Dock
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Dock/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Dock/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Eclipse
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Eclipse/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Eclipse/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fake Floating
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fake Floating/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fake Floating/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 2
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 2/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 2/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 3
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 3/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion 3/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Fusion/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Neon Lights
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Neon Lights/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Neon Lights/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/OG
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/OG/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/OG/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Orbit
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Orbit/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Orbit/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Accent
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Accent/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Accent/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Colors
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Colors/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline Colors/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Outline/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Pulse
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Pulse/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Pulse/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/README.md
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets Floating
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets Floating/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets Floating/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rounded Widgets/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rubik
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rubik/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Rubik/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic 2
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic 2/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic 2/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic white
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic white/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skeuomorphic white/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skittles
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skittles/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Skittles/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sky
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sky/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sky/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sleek
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sleek/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Sleek/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Solid
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Solid/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Solid/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Translucent
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Translucent/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Translucent/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Transparent
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Transparent/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/Transparent/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/White
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/White/preview.png
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/presets/White/settings.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/gdbus_get_signal.sh
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/list_presets.sh
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/service.py
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/ca
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/ca/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/ca/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/de
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/de/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/de/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/fi
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/fi/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/fi/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/hu
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/hu/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/hu/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/nl
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/nl/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/nl/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/pl
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/pl/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/pl/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/uk
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/uk/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/uk/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh_TW
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh_TW/LC_MESSAGES
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/locale/zh_TW/LC_MESSAGES/plasma_applet_luisbocanegra.panel.colorizer.mo
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/metadata.json
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/ReadMe.md
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/ca.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/de.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/fi.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/hu.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/nl.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/pl.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/template.pot
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/uk.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/zh.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/translate/zh_TW.po
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/lib/qt6/qml/org/kde/plasma/panelcolorizer/libpanelcolorizerplugin.so
+-- Installing: /home/ab/.cache/paru/clone/plasma6-applets-panel-colorizer/pkg/plasma6-applets-panel-colorizer/usr/lib/qt6/qml/org/kde/plasma/panelcolorizer/qmldir
+==> Tidying install...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Purging unwanted files...
+  -> Stripping unneeded symbols from binaries and libraries...
+  -> Compressing man and info pages...
+==> Checking for packaging issues...
+==> Creating package "plasma6-applets-panel-colorizer"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: plasma6-applets-panel-colorizer 6.9.1-1 (Sat 28 Mar 2026 03:30:05 PM CDT)
+==> Cleaning up...
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)                      New Version  Net Change
+
+plasma6-applets-panel-colorizer  6.9.1-1        2.69 MiB
+
+Total Installed Size:  2.69 MiB
+
+:: Proceed with installation? [Y/n] 
+(1/1) checking keys in keyring                                                 [---------------------------------------------] 100%
+(1/1) checking package integrity                                               [---------------------------------------------] 100%
+(1/1) loading package files                                                    [---------------------------------------------] 100%
+(1/1) checking for file conflicts                                              [---------------------------------------------] 100%
+:: Running pre-transaction hooks...
+(1/2) Performing snapper pre snapshots for the following configurations...
+==> root: 14
+(2/2) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+(1/1) installing plasma6-applets-panel-colorizer                               [---------------------------------------------] 100%
+Optional dependencies for plasma6-applets-panel-colorizer
+    spectacle: take preset preview support [installed]
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Performing snapper post snapshots for the following configurations...
+==> root: 15
+==> Making package: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:09 PM CDT)
+==> Retrieving sources...
+  -> Downloading kwin-effects-better-blur-dx-2.3.0.tar.gz...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+100  57524   0  57524   0      0  61085      0                              0
+==> Validating source files with sha256sums...
+    kwin-effects-better-blur-dx-2.3.0.tar.gz ... Passed
+==> Making package: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:10 PM CDT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found kwin-effects-better-blur-dx-2.3.0.tar.gz
+==> Validating source files with sha256sums...
+    kwin-effects-better-blur-dx-2.3.0.tar.gz ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting kwin-effects-better-blur-dx-2.3.0.tar.gz with bsdtar
+==> Sources are ready.
+kwin-effects-better-blur-dx-2.3.0-1: parsing pkg list...
+==> Making package: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:11 PM CDT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Starting build()...
+-- The C compiler identification is GNU 15.2.1
+-- The CXX compiler identification is GNU 15.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Installing in the same prefix as Qt, adopting their path scheme.
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+-- Performing Test _OFFT_IS_64BIT - Success
+-- Performing Test HAVE_DATE_TIME
+-- Performing Test HAVE_DATE_TIME - Success
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Found WrapOpenGL: TRUE
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found KF6ColorScheme: /usr/lib/cmake/KF6ColorScheme/KF6ColorSchemeConfig.cmake (found version "6.24.0")
+-- Found KF6Config: /usr/lib/cmake/KF6Config/KF6ConfigConfig.cmake (found version "6.24.0")
+-- Found KF6ConfigWidgets: /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsConfig.cmake (found version "6.24.0")
+-- Found KF6CoreAddons: /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsConfig.cmake (found version "6.24.0")
+-- Found Gettext: /usr/bin/msgmerge (found version "1.0")
+-- Found KF6I18n: /usr/lib/cmake/KF6I18n/KF6I18nConfig.cmake (found version "6.24.0")
+-- Found KF6KCMUtils: /usr/lib/cmake/KF6KCMUtils/KF6KCMUtilsConfig.cmake (found version "6.24.0")
+-- Found KF6WidgetsAddons: /usr/lib/cmake/KF6WidgetsAddons/KF6WidgetsAddonsConfig.cmake (found version "6.24.0")
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found X11: /usr/include
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found KF6WindowSystem: /usr/lib/cmake/KF6WindowSystem/KF6WindowSystemConfig.cmake (found version "6.24.0")
+-- Found KF6: success (found suitable version "6.24.0", minimum required is "5.240.0") found components: ColorScheme Config ConfigWidgets CoreAddons I18n KCMUtils WidgetsAddons WindowSystem
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found epoxy: /usr/lib/libepoxy.so (found version "1.5.10")
+-- Found XCB_XCB: /usr/lib/libxcb.so (found version "1.17.0")
+-- Found XCB: /usr/lib/libxcb.so (found version "1.17.0") found components: XCB
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found Wayland_Server: /usr/lib/libwayland-server.so (found version "1.24.0")
+-- Found Wayland: /usr/lib/libwayland-server.so (found version "1.24.0") found components: Server
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Found Libdrm: /usr/lib/libdrm.so (found version "2.4.131")
+-- The following OPTIONAL packages have been found:
+
+ * OpenGL
+ * Qt6Network (required version >= 6.6.0)
+ * Qt6OpenGL (required version >= 6.6.0)
+ * Qt6WidgetsTools (required version >= 6.11.0)
+ * Qt6Widgets (required version >= 6.8.0)
+ * Qt6QuickTools (required version >= 6.11.0)
+ * Qt6DBusTools (required version >= 6.11.0)
+ * Qt6QmlTools (required version >= 6.11.0)
+ * Qt6CoreTools (required version >= 6.11.0)
+ * Qt6GuiTools (required version >= 6.11.0)
+ * PkgConfig
+
+-- The following REQUIRED packages have been found:
+
+ * Qt6 (required version >= 6.6.0)
+ * KF6ColorScheme (required version >= 6.24.0)
+ * Gettext
+ * KF6I18n (required version >= 5.240.0)
+ * KF6ConfigWidgets (required version >= 6.24.0)
+ * KF6KCMUtils (required version >= 5.240.0)
+ * KF6WidgetsAddons (required version >= 5.240.0)
+ * KF6 (required version >= 5.240.0)
+ * KDecoration3
+ * XCB, X protocol C-language Binding, <https://xcb.freedesktop.org/>
+ * ECM (required version >= 6.22.0)
+ * Qt6Quick (required version >= 6.10.0)
+ * Qt6DBus (required version >= 6.8.0)
+ * Qt6Qml (required version >= 6.8.0)
+ * Qt6Core (required version >= 6.8.0)
+ * Qt6Gui (required version >= 6.8.0)
+ * X11
+ * epoxy
+ * KWin
+ * KWinDBusInterface
+
+-- The following OPTIONAL packages have not been found:
+
+ * WrapVulkanHeaders
+
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ab/.cache/paru/clone/kwin-effects-better-blur-dx/src/build
+[  0%] Built target better_blur_dx_autogen_timestamp_deps
+[  0%] Built target kwin_better_blur_dx_config_autogen_timestamp_deps
+[  3%] Automatic MOC for target better_blur_dx
+[  6%] Automatic MOC for target kwin_better_blur_dx_config
+AutoMoc warning
+---------------
+"SRC:/src/main.cpp"
+includes the moc file "main.moc", but does not contain a Q_OBJECT, Q_GADGET, Q_NAMESPACE, Q_NAMESPACE_EXPORT, Q_GADGET_EXPORT, Q_ENUM_NS, K_PLUGIN_FACTORY, K_PLUGIN_CLASS, K_PLUGIN_FACTORY_WITH_JSON or K_PLUGIN_CLASS_WITH_JSON macro.
+
+[  6%] Built target kwin_better_blur_dx_config_autogen
+[ 17%] Generating blurconfig.h, blurconfig.cpp
+[ 17%] Generating ui_blur_config.h
+[ 17%] Generating kwineffects_interface.cpp, kwineffects_interface.h
+[ 20%] Automatic RCC for blur_config.qrc
+[ 24%] Generating moc_kwineffects_interface.cpp
+[ 24%] Built target better_blur_dx_autogen
+[ 27%] Generating blurconfig.h, blurconfig.cpp
+[ 31%] Automatic RCC for blur.qrc
+[ 34%] Building CXX object src/CMakeFiles/better_blur_dx.dir/rounded_corners_pass.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/better_blur_dx.dir/window.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/better_blur_dx.dir/better_blur_dx_autogen/mocs_compilation.cpp.o
+[ 44%] Building CXX object src/CMakeFiles/better_blur_dx.dir/blur_extensions.cpp.o
+[ 48%] Building CXX object src/CMakeFiles/better_blur_dx.dir/blurconfig.cpp.o
+[ 51%] Building CXX object src/CMakeFiles/better_blur_dx.dir/blur.cpp.o
+[ 55%] Building CXX object src/CMakeFiles/better_blur_dx.dir/main.cpp.o
+[ 58%] Building CXX object src/CMakeFiles/better_blur_dx.dir/refraction_pass.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/better_blur_dx.dir/settings.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/better_blur_dx.dir/better_blur_dx_autogen/EWIEGA46WW/qrc_blur.cpp.o
+[ 68%] Building CXX object src/CMakeFiles/better_blur_dx.dir/window_manager.cpp.o
+[ 79%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/blur_config.cpp.o
+[ 79%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/kwin_better_blur_dx_config_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/blurconfig.cpp.o
+[ 82%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/kwineffects_interface.cpp.o
+[ 86%] Building CXX object src/kcm/CMakeFiles/kwin_better_blur_dx_config.dir/kwin_better_blur_dx_config_autogen/EWIEGA46WW/qrc_blur_config.cpp.o
+[ 89%] Linking CXX shared module kwin_better_blur_dx_config.so
+[ 93%] Linking CXX shared module better_blur_dx.so
+[ 96%] Built target kwin_better_blur_dx_config
+[100%] Built target better_blur_dx
+==> Entering fakeroot environment...
+==> Starting package()...
+-- Install configuration: "None"
+-- Installing: /home/ab/.cache/paru/clone/kwin-effects-better-blur-dx/pkg/kwin-effects-better-blur-dx/usr/lib/qt6/plugins/kwin/effects/configs/kwin_better_blur_dx_config.so
+-- Installing: /home/ab/.cache/paru/clone/kwin-effects-better-blur-dx/pkg/kwin-effects-better-blur-dx/usr/lib/qt6/plugins/kwin/effects/plugins/better_blur_dx.so
+==> Tidying install...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Purging unwanted files...
+  -> Stripping unneeded symbols from binaries and libraries...
+  -> Compressing man and info pages...
+==> Checking for packaging issues...
+==> Creating package "kwin-effects-better-blur-dx"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Adding install file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: kwin-effects-better-blur-dx 2.3.0-1 (Sat 28 Mar 2026 03:30:19 PM CDT)
+==> Cleaning up...
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)                  New Version  Net Change
+
+kwin-effects-better-blur-dx  2.3.0-1        0.28 MiB
+
+Total Installed Size:  0.28 MiB
+
+:: Proceed with installation? [Y/n] 
+(1/1) checking keys in keyring                                                 [---------------------------------------------] 100%
+(1/1) checking package integrity                                               [---------------------------------------------] 100%
+(1/1) loading package files                                                    [---------------------------------------------] 100%
+(1/1) checking for file conflicts                                              [---------------------------------------------] 100%
+:: Running pre-transaction hooks...
+(1/2) Performing snapper pre snapshots for the following configurations...
+==> root: 16
+(2/2) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+(1/1) installing kwin-effects-better-blur-dx                                   [---------------------------------------------] 100%
+==> WARNING: To use this effect disable the default Blur effect and any other forks of the blur effect as well (such as the one provided by LightlyShaders). Then enable the Better Blur effect. You can do this under Desktop Effects in System Settings
+==> NOTE: With Wobbly Windows enabled, the blur effect may be temporarily skipped during window wobbling or the square blur region may bleed outside the deformed window shape. This is expected behavior and the blur will return once the wobbling stops.
+
+
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Performing snapper post snapshots for the following configurations...
+==> root: 17
+error: packages failed to build: spicetify-cli-2.42.15-beta.1-1  millennium-git-v3.0.0.beta.10.r4.geeca662a-1
+
+Build and install kwin-effects-glass-local from ~/pkgbuilds? [y/N] y
+==> Making package: kwin-effects-glass-local 6.6.2.1-1 (Sat 28 Mar 2026 03:30:33 PM CDT)                                           
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Cloning kwin-effects-glass git repo...
+Cloning into bare repository '/home/ab/pkgbuilds/kwin-effects-glass/kwin-effects-glass'...
+remote: Enumerating objects: 2292, done.
+remote: Counting objects: 100% (927/927), done.
+remote: Compressing objects: 100% (243/243), done.
+remote: Total 2292 (delta 820), reused 697 (delta 684), pack-reused 1365 (from 4)
+Receiving objects: 100% (2292/2292), 9.92 MiB | 2.00 MiB/s, done.
+Resolving deltas: 100% (1589/1589), done.
+==> Validating source files with sha256sums...
+    kwin-effects-glass ... Skipped
+==> Extracting sources...
+  -> Creating working copy of kwin-effects-glass git repo...
+Cloning into 'kwin-effects-glass'...
+done.
+==> Starting prepare()...
+Note: switching to '6.6.2-3'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 4b7777a rewrite prePaintWindow to remove the need for several hacks
+==> Starting pkgver()...
+==> Updated version: kwin-effects-glass-local 6.6.2.3-1
+==> Starting build()...
+-- The C compiler identification is GNU 15.2.1
+-- The CXX compiler identification is GNU 15.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Installing in the same prefix as Qt, adopting their path scheme.
+fatal: HEAD does not point to a branch
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+-- Performing Test _OFFT_IS_64BIT - Success
+-- Performing Test HAVE_DATE_TIME
+-- Performing Test HAVE_DATE_TIME - Success
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Found WrapOpenGL: TRUE
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found KF6Config: /usr/lib/cmake/KF6Config/KF6ConfigConfig.cmake (found version "6.24.0")
+-- Found KF6ConfigWidgets: /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsConfig.cmake (found version "6.24.0")
+-- Found KF6CoreAddons: /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsConfig.cmake (found version "6.24.0")
+-- Found KF6Crash: /usr/lib/cmake/KF6Crash/KF6CrashConfig.cmake (found version "6.24.0")
+-- Found KF6GlobalAccel: /usr/lib/cmake/KF6GlobalAccel/KF6GlobalAccelConfig.cmake (found version "6.24.0")
+-- Found Gettext: /usr/bin/msgmerge (found version "1.0")
+-- Found KF6I18n: /usr/lib/cmake/KF6I18n/KF6I18nConfig.cmake (found version "6.24.0")
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found X11: /usr/include
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found KF6KIO: /usr/lib/cmake/KF6KIO/KF6KIOConfig.cmake (found version "6.24.0")
+-- Found KF6Service: /usr/lib/cmake/KF6Service/KF6ServiceConfig.cmake (found version "6.24.0")
+-- Found KF6Notifications: /usr/lib/cmake/KF6Notifications/KF6NotificationsConfig.cmake (found version "6.24.0")
+-- Found KF6WidgetsAddons: /usr/lib/cmake/KF6WidgetsAddons/KF6WidgetsAddonsConfig.cmake (found version "6.24.0")
+-- Found KF6WindowSystem: /usr/lib/cmake/KF6WindowSystem/KF6WindowSystemConfig.cmake (found version "6.24.0")
+-- Found KF6GuiAddons: /usr/lib/cmake/KF6GuiAddons/KF6GuiAddonsConfig.cmake (found version "6.24.0")
+-- Found KF6KCMUtils: /usr/lib/cmake/KF6KCMUtils/KF6KCMUtilsConfig.cmake (found version "6.24.0")
+-- Found KF6: success (found suitable version "6.24.0", minimum required is "5.240.0") found components: Config ConfigWidgets CoreAddons Crash GlobalAccel I18n KIO Service Notifications Service WidgetsAddons WindowSystem GuiAddons KCMUtils
+-- Found epoxy: /usr/lib/libepoxy.so (found version "1.5.10")
+-- Found XCB_XCB: /usr/lib/libxcb.so (found version "1.17.0")
+-- Found XCB: /usr/lib/libxcb.so (found version "1.17.0") found components: XCB
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found Wayland_Server: /usr/lib/libwayland-server.so (found version "1.24.0")
+-- Found Wayland: /usr/lib/libwayland-server.so (found version "1.24.0") found components: Server
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Found Libdrm: /usr/lib/libdrm.so (found version "2.4.131")
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- The following OPTIONAL packages have been found:
+
+ * OpenGL
+ * Qt6UiTools (required version >= 6.6.0)
+ * Qt6DBusTools (required version >= 6.11.0)
+ * Qt6WidgetsTools (required version >= 6.11.0)
+ * Qt6Xml (required version >= 6.8.0)
+ * Qt6Network (required version >= 6.8.0)
+ * Qt6QmlTools (required version >= 6.11.0)
+ * Qt6QuickTools (required version >= 6.11.0)
+ * PkgConfig
+ * KWin
+ * Qt6CoreTools (required version >= 6.11.0)
+ * Qt6GuiTools (required version >= 6.11.0)
+
+-- The following REQUIRED packages have been found:
+
+ * Qt6 (required version >= 6.6.0)
+ * KF6Crash (required version >= 5.240.0)
+ * KF6GlobalAccel (required version >= 5.240.0)
+ * Gettext
+ * KF6I18n (required version >= 5.240.0)
+ * KF6KIO (required version >= 5.240.0)
+ * KF6Notifications (required version >= 5.240.0)
+ * KF6Service (required version >= 5.240.0)
+ * KF6WidgetsAddons (required version >= 5.240.0)
+ * KF6GuiAddons (required version >= 5.240.0)
+ * KF6ConfigWidgets (required version >= 6.24.0)
+ * KF6KCMUtils (required version >= 5.240.0)
+ * KF6 (required version >= 5.240.0)
+ * X11
+ * XCB, X protocol C-language Binding, <https://xcb.freedesktop.org/>
+ * ECM (required version >= 6.22.0)
+ * KF6Config (required version >= 6.22.0)
+ * KF6CoreAddons (required version >= 6.22.0)
+ * KF6WindowSystem (required version >= 6.22.0)
+ * epoxy
+ * KWinDBusInterface
+ * Qt6Gui (required version >= 6.10.0)
+ * KDecoration3
+
+-- The following OPTIONAL packages have not been found:
+
+ * WrapVulkanHeaders
+
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ab/pkgbuilds/kwin-effects-glass/src/build
+[  0%] Built target kwin_glass_config_autogen_timestamp_deps
+[  0%] Built target glass_autogen_timestamp_deps
+[  4%] Automatic MOC for target glass
+[  8%] Automatic MOC for target kwin_glass_config
+AutoMoc warning
+---------------
+"SRC:/src/main.cpp"
+includes the moc file "main.moc", but does not contain a Q_OBJECT, Q_GADGET, Q_NAMESPACE, Q_NAMESPACE_EXPORT, Q_GADGET_EXPORT, Q_ENUM_NS, K_PLUGIN_FACTORY, K_PLUGIN_CLASS, K_PLUGIN_FACTORY_WITH_JSON or K_PLUGIN_CLASS_WITH_JSON macro.
+
+[  8%] Built target kwin_glass_config_autogen
+[ 26%] Generating ui_blur_config.h
+[ 26%] Generating kwineffects_interface.cpp, kwineffects_interface.h
+[ 21%] Generating blurconfig.h, blurconfig.cpp
+[ 26%] Automatic RCC for blur_config.qrc
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label1'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label2'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget1'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget2'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget3'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout1'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer1'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout2'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer2'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout3'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer3'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalLayout' (QHBoxLayout) is already in use, defaulting to 'horizontalLayout4'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'horizontalSpacer' (QSpacerItem) is already in use, defaulting to 'horizontalSpacer4'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'verticalSpacer' (QSpacerItem) is already in use, defaulting to 'verticalSpacer1'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget4'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label3'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label4'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label5'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label6'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'label' (QLabel) is already in use, defaulting to 'label7'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget5'.
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/kcm/blur_config.ui: Warning: The name 'widget' (QWidget) is already in use, defaulting to 'widget6'.
+[ 26%] Built target glass_autogen
+[ 30%] Generating moc_kwineffects_interface.cpp
+[ 34%] Generating blurconfig.h, blurconfig.cpp
+[ 39%] Automatic RCC for blur.qrc
+[ 43%] Building CXX object src/CMakeFiles/glass.dir/main.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/glass.dir/glass_autogen/mocs_compilation.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/glass.dir/blur.cpp.o
+[ 56%] Building CXX object src/CMakeFiles/glass.dir/blurconfig.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/glass.dir/glass_autogen/EWIEGA46WW/qrc_blur.cpp.o
+[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/blurconfig.cpp.o
+[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/kwin_glass_config_autogen/EWIEGA46WW/qrc_blur_config.cpp.o
+[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/blur_config.cpp.o
+[ 78%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/kwin_glass_config_autogen/mocs_compilation.cpp.o
+[ 82%] Building CXX object src/kcm/CMakeFiles/kwin_glass_config.dir/kwineffects_interface.cpp.o
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp: In member function ‘virtual void KWin::BlurEffect::reconfigure(KWin::Effect::ReconfigureFlags)’:
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp:288:47: warning: unused parameter ‘flags’ [-Wunused-parameter]
+  288 | void BlurEffect::reconfigure(ReconfigureFlags flags)
+      |                              ~~~~~~~~~~~~~~~~~^~~~~
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp: In member function ‘void KWin::BlurEffect::blur(const KWin::RenderTarget&, const KWin::RenderViewport&, KWin::EffectWindow*, int, const KWin::Region&, KWin::WindowPaintData&)’:
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp:853:28: warning: loop variable ‘rect’ of type ‘const QRectF&’ binds to a temporary constructed from type ‘KWin::RectF’ [-Wrange-loop-construct]
+  853 |         for (const QRectF &rect : effectiveShape) {
+      |                            ^~~~
+/home/ab/pkgbuilds/kwin-effects-glass/src/kwin-effects-glass/src/blur.cpp:853:28: note: use non-reference type ‘const QRectF’ to make the copy explicit or ‘const KWin::RectF&’ to prevent copying
+[ 86%] Linking CXX shared module kwin_glass_config.so
+[ 91%] Linking CXX shared module glass.so
+[ 95%] Built target kwin_glass_config
+[100%] Built target glass
+==> Entering fakeroot environment...
+==> Starting package()...
+-- Install configuration: "Release"
+-- Installing: /home/ab/pkgbuilds/kwin-effects-glass/pkg/kwin-effects-glass-local/usr/lib/qt6/plugins/kwin/effects/configs/kwin_glass_config.so
+-- Installing: /home/ab/pkgbuilds/kwin-effects-glass/pkg/kwin-effects-glass-local/usr/lib/qt6/plugins/kwin/effects/plugins/glass.so
+==> Tidying install...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Purging unwanted files...
+  -> Stripping unneeded symbols from binaries and libraries...
+  -> Compressing man and info pages...
+==> Checking for packaging issues...
+==> Creating package "kwin-effects-glass-local"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: kwin-effects-glass-local 6.6.2.3-1 (Sat 28 Mar 2026 03:30:44 PM CDT)
+==> Installing package kwin-effects-glass-local with pacman -U...
+[sudo] password for ab: 
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)               New Version  Net Change
+
+kwin-effects-glass-local  6.6.2.3-1      0.22 MiB
+
+Total Installed Size:  0.22 MiB
+
+:: Proceed with installation? [Y/n] y
+(1/1) checking keys in keyring                                                 [---------------------------------------------] 100%
+(1/1) checking package integrity                                               [---------------------------------------------] 100%
+(1/1) loading package files                                                    [---------------------------------------------] 100%
+(1/1) checking for file conflicts                                              [---------------------------------------------] 100%
+:: Running pre-transaction hooks...
+(1/2) Performing snapper pre snapshots for the following configurations...
+==> root: 18
+(2/2) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+(1/1) installing kwin-effects-glass-local                                      [---------------------------------------------] 100%
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Performing snapper post snapshots for the following configurations...
+==> root: 19
+
+┬ 3:30PM
+╰─ab@/home/ab/pkgbuilds/kwin-effects-glass⩺ 
